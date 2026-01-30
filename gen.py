@@ -2,7 +2,7 @@ import os
 
 # --- CONFIG ---
 USERNAME = "Nothingness1312"   # ganti sesuai username kamu
-REPO = "ktcg-chall"             # ganti sesuai nama repo kamu
+REPO = "ktcg"             # ganti sesuai nama repo kamu
 BRANCH = "main"              # default "main" atau "master"
 
 # --- SKIP FOLDERS ---
