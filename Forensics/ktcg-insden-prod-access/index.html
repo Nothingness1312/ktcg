@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>KTCG Weekly Security Report</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            margin: 0;
+            padding: 40px;
+            background: linear-gradient(145deg, #0a0f1e 0%, #0f172a 100%);
+            color: #e2e8f0;
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
+            line-height: 1.6;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .container {
+            max-width: 900px;
+            width: 100%;
+        }
+
+        h1 {
+            color: #22d3ee;
+            font-weight: 600;
+            font-size: 2.2rem;
+            letter-spacing: -0.5px;
+            margin-bottom: 0.5rem;
+            text-shadow: 0 0 20px rgba(34, 211, 238, 0.3);
+            border-left: 6px solid #22d3ee;
+            padding-left: 20px;
+        }
+
+        .subhead {
+            color: #94a3b8;
+            margin-bottom: 40px;
+            font-size: 1.1rem;
+            margin-left: 26px;
+        }
+
+        .section {
+            margin-bottom: 30px;
+            padding: 28px 30px;
+            background: rgba(17, 24, 39, 0.8);
+            backdrop-filter: blur(8px);
+            border: 1px solid #1e293b;
+            border-radius: 20px;
+            box-shadow: 0 25px 30px -10px rgba(0,0,0,0.4);
+            transition: all 0.2s ease;
+        }
+
+        .section:hover {
+            border-color: #22d3ee55;
+            background: rgba(20, 30, 45, 0.9);
+        }
+
+        .section h2 {
+            color: #a5f3fc;
+            font-size: 1.5rem;
+            font-weight: 500;
+            margin-top: 0;
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            border-bottom: 1px solid #334155;
+            padding-bottom: 12px;
+        }
+
+        .badge {
+            background: #0e2a3a;
+            color: #7dd3fc;
+            padding: 6px 16px;
+            border-radius: 30px;
+            font-size: 0.8rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            display: inline-block;
+            border: 1px solid #22d3ee80;
+        }
+
+        .status-resolved {
+            background: #064e3b;
+            color: #a7f3d0;
+            padding: 10px 22px;
+            border-radius: 40px;
+            display: inline-block;
+            font-weight: 600;
+            border: 1px solid #34d399;
+            box-shadow: 0 0 12px #10b98133;
+            font-size: 1.1rem;
+        }
+
+        .meta-info {
+            color: #9ca3af;
+            font-size: 0.95rem;
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+            margin-top: 10px;
+        }
+
+        .footer {
+            margin-top: 50px;
+            font-size: 0.8rem;
+            color: #6b7280;
+            text-align: center;
+            border-top: 1px solid #1f2937;
+            padding-top: 30px;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+        }
+
+        .secret-tag {
+            margin-top: 30px;
+            font-family: monospace;
+            font-size: 0.7rem;
+            color: #1e293b;
+            background: #0f172a;
+            padding: 6px 12px;
+            border-radius: 30px;
+            text-align: center;
+            border: 1px dashed #334155;
+            user-select: all;
+            opacity: 0.7;
+        }
+
+        .secret-tag:hover {
+            color: #94a3b8;
+            border-color: #22d3ee;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Weekly Internal Security Report</h1>
+        <div class="subhead">KTCG · Threat Intelligence · CW#12</div>
+
+        <div class="section">
+            <h2>
+                <span>📋 Summary</span>
+                <span class="badge">investigation closed</span>
+            </h2>
+            <p style="font-size: 1.2rem; margin-bottom: 0.5rem;">
+                ⚠️ Suspicious outbound verification request detected.
+            </p>
+            <p style="color: #cbd5e1; margin-top: 0;">
+                Investigation concluded — no further lateral movement, no data exfiltration.
+                Asset isolated and monitoring continued.
+            </p>
+            <div class="meta-info">
+                <span>🕒 Reported: 2026-02-12 03:42 UTC</span>
+                <span>🎯 Severity: Low</span>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>🔐 Internal Reference</h2>
+            <div style="display: flex; align-items: center; gap: 20px; flex-wrap: wrap;">
+                <span class="status-resolved">✓ Status: Resolved</span>
+                <span style="color: #94a3b8;">Ticket: IR-2026-0212</span>
+            </div>
+            <p style="color: #9ca3af; margin-top: 20px; margin-bottom: 0;">
+                Post-incident review scheduled. No active threat.
+            </p>
+        </div>
+
+        <div class="footer">
+            Internal Document – Confidential · KTCG SOC
+        </div>
+
+        <!-- RkdURTB7MV80bV90aDNfZmw0Z195MHVfNHIzX2wwMGsxbmdfZjByfQ== -->
+        <div class="secret-tag">
+            [encoded reference · SOC only]
+        </div>
+    </div>
+</body>
+</html>
