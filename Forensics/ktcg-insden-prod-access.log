@@ -1,479 +1,273 @@
-10.0.0.1 - - [12/Feb/2026:00:01:23] "GET / HTTP/1.1" 200 5120 "-" "Mozilla/5.0" Host: main.ktcg-insden.vercel.app
-10.0.0.2 - - [12/Feb/2026:00:02:45] "GET /css/style.css HTTP/1.1" 200 2048 "-" "Mozilla/5.0" Host: assets.ktcg-insden.vercel.app
-10.0.0.3 - - [12/Feb/2026:00:03:12] "GET /js/app.js HTTP/1.1" 200 4096 "-" "Mozilla/5.0" Host: assets.ktcg-insden.vercel.app
-10.0.0.1 - - [12/Feb/2026:00:04:56] "GET /api/users HTTP/1.1" 200 1024 "-" "Mozilla/5.0" Host: api.ktcg-insden.vercel.app
-10.0.0.4 - - [12/Feb/2026:00:05:34] "GET /images/logo.png HTTP/1.1" 200 15360 "-" "Mozilla/5.0" Host: cdn.ktcg-insden.vercel.app
-10.0.0.2 - - [12/Feb/2026:00:06:21] "GET /dashboard HTTP/1.1" 200 3072 "-" "Mozilla/5.0" Host: monitor.ktcg-insden.vercel.app
-10.0.0.5 - - [12/Feb/2026:00:07:43] "GET /login HTTP/1.1" 200 2048 "-" "Mozilla/5.0" Host: main.ktcg-insden.vercel.app
-10.0.0.1 - - [12/Feb/2026:00:08:09] "GET /profile/123 HTTP/1.1" 200 4096 "-" "Mozilla/5.0" Host: user.ktcg-insden.vercel.app
-10.0.0.3 - - [12/Feb/2026:00:09:37] "GET /api/products HTTP/1.1" 200 6144 "-" "Mozilla/5.0" Host: api.ktcg-insden.vercel.app
-10.0.0.6 - - [12/Feb/2026:00:10:12] "GET /admin HTTP/1.1" 403 512 "-" "Mozilla/5.0" Host: admin-panel.ktcg-insden.vercel.app
-10.0.0.1 - - [12/Feb/2026:00:11:44] "GET /settings HTTP/1.1" 200 2048 "-" "Mozilla/5.0" Host: user.ktcg-insden.vercel.app
-10.0.0.2 - - [12/Feb/2026:00:12:28] "GET /fonts/roboto.woff2 HTTP/1.1" 200 8192 "-" "Mozilla/5.0" Host: assets.ktcg-insden.vercel.app
-10.0.0.7 - - [12/Feb/2026:00:13:05] "GET /backup.zip HTTP/1.1" 404 256 "-" "Mozilla/5.0" Host: old-backup.ktcg-insden.vercel.app
-10.0.0.1 - - [12/Feb/2026:00:14:39] "GET /search?q=laptop HTTP/1.1" 200 5120 "-" "Mozilla/5.0" Host: main.ktcg-insden.vercel.app
-10.0.0.4 - - [12/Feb/2026:00:15:51] "GET /images/banner.jpg HTTP/1.1" 200 10240 "-" "Mozilla/5.0" Host: cdn.ktcg-insden.vercel.app
-10.0.0.8 - - [12/Feb/2026:00:16:23] "GET /debug HTTP/1.1" 200 3072 "-" "Mozilla/5.0" Host: dev-tools.ktcg-insden.vercel.app
-10.0.0.1 - - [12/Feb/2026:00:17:47] "POST /api/login HTTP/1.1" 200 512 "-" "Mozilla/5.0" Host: api.ktcg-insden.vercel.app
-10.0.0.2 - - [12/Feb/2026:00:18:34] "GET /metrics HTTP/1.1" 200 2048 "-" "Mozilla/5.0" Host: monitor.ktcg-insden.vercel.app
-10.0.0.3 - - [12/Feb/2026:00:19:12] "GET /api/orders HTTP/1.1" 200 3072 "-" "Mozilla/5.0" Host: api.ktcg-insden.vercel.app
-10.0.0.1 - - [12/Feb/2026:00:20:56] "GET /logout HTTP/1.1" 302 0 "-" "Mozilla/5.0" Host: main.ktcg-insden.vercel.app
-10.0.0.5 - - [12/Feb/2026:00:21:38] "GET /register HTTP/1.1" 200 4096 "-" "Mozilla/5.0" Host: main.ktcg-insden.vercel.app
-10.0.0.1 - - [12/Feb/2026:00:22:01] "GET /notifications HTTP/1.1" 200 1024 "-" "Mozilla/5.0" Host: user.ktcg-insden.vercel.app
-10.0.0.6 - - [12/Feb/2026:00:23:44] "GET /users/list HTTP/1.1" 403 512 "-" "Mozilla/5.0" Host: admin-panel.ktcg-insden.vercel.app
-10.0.0.2 - - [12/Feb/2026:00:24:27] "GET /css/responsive.css HTTP/1.1" 200 1024 "-" "Mozilla/5.0" Host: assets.ktcg-insden.vercel.app
-10.0.0.7 - - [12/Feb/2026:00:25:53] "GET /database.sql HTTP/1.1" 404 256 "-" "Mozilla/5.0" Host: old-backup.ktcg-insden.vercel.app
-10.0.0.1 - - [12/Feb/2026:00:26:19] "GET /cart HTTP/1.1" 200 3072 "-" "Mozilla/5.0" Host: main.ktcg-insden.vercel.app
-10.0.0.4 - - [12/Feb/2026:00:27:42] "GET /images/favicon.ico HTTP/1.1" 200 1024 "-" "Mozilla/5.0" Host: cdn.ktcg-insden.vercel.app
-10.0.0.8 - - [12/Feb/2026:00:28:15] "GET /test-suite HTTP/1.1" 200 4096 "-" "Mozilla/5.0" Host: staging.ktcg-insden.vercel.app
-10.0.0.1 - - [12/Feb/2026:00:29:37] "GET /checkout HTTP/1.1" 200 2048 "-" "Mozilla/5.0" Host: main.ktcg-insden.vercel.app
-10.0.0.3 - - [12/Feb/2026:00:30:44] "GET /api/payments HTTP/1.1" 200 2048 "-" "Mozilla/5.0" Host: api.ktcg-insden.vercel.app
-10.0.0.2 - - [12/Feb/2026:00:31:28] "GET /js/utils.js HTTP/1.1" 200 5120 "-" "Mozilla/5.0" Host: assets.ktcg-insden.vercel.app
-10.0.0.5 - - [12/Feb/2026:00:32:05] "GET /forgot-password HTTP/1.1" 200 2048 "-" "Mozilla/5.0" Host: main.ktcg-insden.vercel.app
-10.0.0.1 - - [12/Feb/2026:00:33:41] "GET /orders/456 HTTP/1.1" 200 2048 "-" "Mozilla/5.0" Host: user.ktcg-insden.vercel.app
-10.0.0.6 - - [12/Feb/2026:00:34:19] "GET /analytics HTTP/1.1" 200 4096 "-" "Mozilla/5.0" Host: admin-panel.ktcg-insden.vercel.app
-10.0.0.7 - - [12/Feb/2026:00:35:53] "GET /config.json HTTP/1.1" 200 1024 "-" "Mozilla/5.0" Host: internal.ktcg-insden.vercel.app
-10.0.0.1 - - [12/Feb/2026:00:36:27] "POST /api/checkout HTTP/1.1" 200 512 "-" "Mozilla/5.0" Host: api.ktcg-insden.vercel.app
-10.0.0.4 - - [12/Feb/2026:00:37:48] "GET /images/product1.jpg HTTP/1.1" 200 5120 "-" "Mozilla/5.0" Host: cdn.ktcg-insden.vercel.app
-10.0.0.8 - - [12/Feb/2026:00:38:12] "GET /robots.txt HTTP/1.1" 200 512 "-" "Mozilla/5.0" Host: crawler.ktcg-insden.vercel.app
-10.0.0.2 - - [12/Feb/2026:00:39:34] "GET /css/theme.css HTTP/1.1" 200 2048 "-" "Mozilla/5.0" Host: assets.ktcg-insden.vercel.app
-10.0.0.3 - - [12/Feb/2026:00:40:51] "GET /api/categories HTTP/1.1" 200 3072 "-" "Mozilla/5.0" Host: api.ktcg-insden.vercel.app
-10.0.0.1 - - [12/Feb/2026:00:41:23] "GET /wishlist HTTP/1.1" 200 2048 "-" "Mozilla/5.0" Host: main.ktcg-insden.vercel.app
-10.0.0.5 - - [12/Feb/2026:00:42:09] "GET /reset-password HTTP/1.1" 200 1024 "-" "Mozilla/5.0" Host: main.ktcg-insden.vercel.app
-10.0.0.1 - - [12/Feb/2026:00:43:45] "GET /support HTTP/1.1" 200 3072 "-" "Mozilla/5.0" Host: user.ktcg-insden.vercel.app
-10.0.0.6 - - [12/Feb/2026:00:44:28] "GET /reports HTTP/1.1" 200 4096 "-" "Mozilla/5.0" Host: admin-panel.ktcg-insden.vercel.app
-10.0.0.2 - - [12/Feb/2026:00:45:37] "GET /js/vendor.js HTTP/1.1" 200 8192 "-" "Mozilla/5.0" Host: assets.ktcg-insden.vercel.app
-10.0.0.7 - - [12/Feb/2026:00:46:12] "GET /secrets.env HTTP/1.1" 404 256 "-" "Mozilla/5.0" Host: internal.ktcg-insden.vercel.app
-10.0.0.4 - - [12/Feb/2026:00:47:54] "GET /images/product2.jpg HTTP/1.1" 200 6144 "-" "Mozilla/5.0" Host: cdn.ktcg-insden.vercel.app
-10.0.0.1 - - [12/Feb/2026:00:48:33] "GET /about HTTP/1.1" 200 4096 "-" "Mozilla/5.0" Host: main.ktcg-insden.vercel.app
-10.0.0.8 - - [12/Feb/2026:00:49:17] "GET /sitemap.xml HTTP/1.1" 200 1024 "-" "Mozilla/5.0" Host: crawler.ktcg-insden.vercel.app
-10.0.0.3 - - [12/Feb/2026:00:50:41] "GET /api/search?q=smartphone HTTP/1.1" 200 4096 "-" "Mozilla/5.0" Host: api.ktcg-insden.vercel.app
-10.0.0.2 - - [12/Feb/2026:00:51:29] "GET /fonts/inter.woff2 HTTP/1.1" 200 8192 "-" "Mozilla/5.0" Host: assets.ktcg-insden.vercel.app
-10.0.0.5 - - [12/Feb/2026:00:52:05] "GET /contact HTTP/1.1" 200 2048 "-" "Mozilla/5.0" Host: main.ktcg-insden.vercel.app
-10.0.0.1 - - [12/Feb/2026:00:53:48] "GET /returns HTTP/1.1" 200 1024 "-" "Mozilla/5.0" Host: user.ktcg-insden.vercel.app
-10.0.0.6 - - [12/Feb/2026:00:54:22] "GET /system/status HTTP/1.1" 200 1024 "-" "Mozilla/5.0" Host: admin-panel.ktcg-insden.vercel.app
-10.0.0.7 - - [12/Feb/2026:00:55:39] "GET /.env HTTP/1.1" 404 256 "-" "Mozilla/5.0" Host: internal.ktcg-insden.vercel.app
-10.0.0.9 - - [12/Feb/2026:00:56:14] "GET /assets/js/main.js HTTP/1.1" 200 4096 "-" "Mozilla/5.0" Host: assets.ktcg-insden.vercel.app
-10.0.0.1 - - [12/Feb/2026:00:57:47] "GET /faq HTTP/1.1" 200 3072 "-" "Mozilla/5.0" Host: main.ktcg-insden.vercel.app
-10.0.0.4 - - [12/Feb/2026:00:58:33] "GET /images/hero.jpg HTTP/1.1" 200 10240 "-" "Mozilla/5.0" Host: cdn.ktcg-insden.vercel.app
-10.0.0.8 - - [12/Feb/2026:00:59:01] "GET /security.txt HTTP/1.1" 200 512 "-" "Mozilla/5.0" Host: crawler.ktcg-insden.vercel.app
-10.0.0.3 - - [12/Feb/2026:01:00:28] "GET /api/featured HTTP/1.1" 200 2048 "-" "Mozilla/5.0" Host: api.ktcg-insden.vercel.app
-10.0.0.2 - - [12/Feb/2026:01:01:52] "GET /css/dark.css HTTP/1.1" 200 1024 "-" "Mozilla/5.0" Host: assets.ktcg-insden.vercel.app
-10.0.0.5 - - [12/Feb/2026:01:02:37] "GET /careers HTTP/1.1" 200 4096 "-" "Mozilla/5.0" Host: main.ktcg-insden.vercel.app
-10.0.0.1 - - [12/Feb/2026:01:03:19] "GET /invoices/789 HTTP/1.1" 200 2048 "-" "Mozilla/5.0" Host: user.ktcg-insden.vercel.app
-10.0.0.6 - - [12/Feb/2026:01:04:44] "GET /logs HTTP/1.1" 403 512 "-" "Mozilla/5.0" Host: admin-panel.ktcg-insden.vercel.app
-10.0.0.7 - - [12/Feb/2026:01:05:28] "GET /aws-credentials.json HTTP/1.1" 404 256 "-" "Mozilla/5.0" Host: internal.ktcg-insden.vercel.app
-10.0.0.9 - - [12/Feb/2026:01:06:53] "GET /js/analytics.js HTTP/1.1" 200 3072 "-" "Mozilla/5.0" Host: assets.ktcg-insden.vercel.app
-10.0.0.1 - - [12/Feb/2026:01:07:39] "GET /promo HTTP/1.1" 200 2048 "-" "Mozilla/5.0" Host: main.ktcg-insden.vercel.app
-10.0.0.4 - - [12/Feb/2026:01:08:12] "GET /images/product3.jpg HTTP/1.1" 200 5120 "-" "Mozilla/5.0" Host: cdn.ktcg-insden.vercel.app
-10.0.0.8 - - [12/Feb/2026:01:09:45] "GET /.well-known/security.txt HTTP/1.1" 200 512 "-" "Mozilla/5.0" Host: crawler.ktcg-insden.vercel.app
-10.0.0.2 - - [12/Feb/2026:01:10:33] "GET /js/chunk-vendors.js HTTP/1.1" 200 12288 "-" "Mozilla/5.0" Host: assets.ktcg-insden.vercel.app
-10.0.0.3 - - [12/Feb/2026:01:11:19] "GET /api/recommendations HTTP/1.1" 200 3072 "-" "Mozilla/5.0" Host: api.ktcg-insden.vercel.app
-10.0.0.5 - - [12/Feb/2026:01:12:47] "GET /blog HTTP/1.1" 200 5120 "-" "Mozilla/5.0" Host: main.ktcg-insden.vercel.app
-10.0.0.1 - - [12/Feb/2026:01:13:24] "GET /address-book HTTP/1.1" 200 2048 "-" "Mozilla/5.0" Host: user.ktcg-insden.vercel.app
-10.0.0.6 - - [12/Feb/2026:01:14:58] "GET /settings/system HTTP/1.1" 403 512 "-" "Mozilla/5.0" Host: admin-panel.ktcg-insden.vercel.app
-10.0.0.7 - - [12/Feb/2026:01:15:36] "GET /passwords.txt HTTP/1.1" 404 256 "-" "Mozilla/5.0" Host: internal.ktcg-insden.vercel.app
-10.0.0.8 - - [12/Feb/2026:01:16:02] "GET /version-test HTTP/1.1" 200 1024 "-" "Mozilla/5.0" Host: staging.ktcg-insden.vercel.app
-10.0.0.9 - - [12/Feb/2026:01:17:29] "GET /images/icons/check.svg HTTP/1.1" 200 512 "-" "Mozilla/5.0" Host: cdn.ktcg-insden.vercel.app
-10.0.0.1 - - [12/Feb/2026:01:18:15] "GET /campaign/summer HTTP/1.1" 200 4096 "-" "Mozilla/5.0" Host: main.ktcg-insden.vercel.app
-10.0.0.2 - - [12/Feb/2026:01:19:43] "GET /css/print.css HTTP/1.1" 200 1024 "-" "Mozilla/5.0" Host: assets.ktcg-insden.vercel.app
-10.0.0.3 - - [12/Feb/2026:01:20:27] "GET /api/inventory HTTP/1.1" 200 2048 "-" "Mozilla/5.0" Host: api.ktcg-insden.vercel.app
-10.0.0.4 - - [12/Feb/2026:01:21:51] "GET /images/404.jpg HTTP/1.1" 200 3072 "-" "Mozilla/5.0" Host: cdn.ktcg-insden.vercel.app
-10.0.0.5 - - [12/Feb/2026:01:22:38] "GET /newsletter HTTP/1.1" 200 1024 "-" "Mozilla/5.0" Host: main.ktcg-insden.vercel.app
-10.0.0.1 - - [12/Feb/2026:01:23:14] "GET /payment-methods HTTP/1.1" 200 2048 "-" "Mozilla/5.0" Host: user.ktcg-insden.vercel.app
-10.0.0.6 - - [12/Feb/2026:01:24:49] "GET /audit HTTP/1.1" 403 512 "-" "Mozilla/5.0" Host: admin-panel.ktcg-insden.vercel.app
-10.0.0.7 - - [12/Feb/2026:01:25:33] "GET /keys.pem HTTP/1.1" 404 256 "-" "Mozilla/5.0" Host: internal.ktcg-insden.vercel.app
-10.0.0.8 - - [12/Feb/2026:01:26:07] "GET /api/test HTTP/1.1" 200 1024 "-" "Mozilla/5.0" Host: staging.ktcg-insden.vercel.app
-10.0.0.2 - - [12/Feb/2026:01:27:42] "GET /js/error-tracking.js HTTP/1.1" 200 3072 "-" "Mozilla/5.0" Host: assets.ktcg-insden.vercel.app
-10.0.0.9 - - [12/Feb/2026:01:28:19] "GET /images/logo-small.png HTTP/1.1" 200 2048 "-" "Mozilla/5.0" Host: cdn.ktcg-insden.vercel.app
-10.0.0.1 - - [12/Feb/2026:01:29:55] "GET /gift-cards HTTP/1.1" 200 2048 "-" "Mozilla/5.0" Host: main.ktcg-insden.vercel.app
-10.0.0.3 - - [12/Feb/2026:01:30:41] "GET /api/shipping HTTP/1.1" 200 2048 "-" "Mozilla/5.0" Host: api.ktcg-insden.vercel.app
-10.0.0.4 - - [12/Feb/2026:01:31:28] "GET /images/category/electronics.jpg HTTP/1.1" 200 7168 "-" "Mozilla/5.0" Host: cdn.ktcg-insden.vercel.app
-10.0.0.5 - - [12/Feb/2026:01:32:04] "GET /sale HTTP/1.1" 200 4096 "-" "Mozilla/5.0" Host: main.ktcg-insden.vercel.app
-10.0.0.1 - - [12/Feb/2026:01:33:47] "GET /subscription HTTP/1.1" 200 1024 "-" "Mozilla/5.0" Host: user.ktcg-insden.vercel.app
-10.0.0.6 - - [12/Feb/2026:01:34:22] "GET /backup/create HTTP/1.1" 403 512 "-" "Mozilla/5.0" Host: admin-panel.ktcg-insden.vercel.app
-10.0.0.7 - - [12/Feb/2026:01:35:59] "GET /ssh.key HTTP/1.1" 404 256 "-" "Mozilla/5.0" Host: internal.ktcg-insden.vercel.app
-10.0.0.8 - - [12/Feb/2026:01:36:36] "GET /new-feature HTTP/1.1" 200 1024 "-" "Mozilla/5.0" Host: staging.ktcg-insden.vercel.app
-10.0.0.2 - - [12/Feb/2026:01:37:13] "GET /fonts/poppins.woff2 HTTP/1.1" 200 8192 "-" "Mozilla/5.0" Host: assets.ktcg-insden.vercel.app
-10.0.0.9 - - [12/Feb/2026:01:38:48] "GET /images/icons/cart.svg HTTP/1.1" 200 512 "-" "Mozilla/5.0" Host: cdn.ktcg-insden.vercel.app
-10.0.0.1 - - [12/Feb/2026:01:39:24] "GET /brands HTTP/1.1" 200 3072 "-" "Mozilla/5.0" Host: main.ktcg-insden.vercel.app
-10.0.0.3 - - [12/Feb/2026:01:40:57] "GET /api/tracking HTTP/1.1" 200 1024 "-" "Mozilla/5.0" Host: api.ktcg-insden.vercel.app
-10.0.0.4 - - [12/Feb/2026:01:41:33] "GET /images/category/fashion.jpg HTTP/1.1" 200 6144 "-" "Mozilla/5.0" Host: cdn.ktcg-insden.vercel.app
-10.0.0.5 - - [12/Feb/2026:01:42:09] "GET /stores HTTP/1.1" 200 2048 "-" "Mozilla/5.0" Host: main.ktcg-insden.vercel.app
-10.0.0.1 - - [12/Feb/2026:01:43:46] "GET /rewards HTTP/1.1" 200 2048 "-" "Mozilla/5.0" Host: user.ktcg-insden.vercel.app
-10.0.0.6 - - [12/Feb/2026:01:44:22] "GET /database/backup HTTP/1.1" 403 512 "-" "Mozilla/5.0" Host: admin-panel.ktcg-insden.vercel.app
-10.0.0.7 - - [12/Feb/2026:01:45:58] "GET /id_rsa HTTP/1.1" 404 256 "-" "Mozilla/5.0" Host: internal.ktcg-insden.vercel.app
-10.0.0.8 - - [12/Feb/2026:01:46:35] "GET /preview HTTP/1.1" 200 2048 "-" "Mozilla/5.0" Host: staging.ktcg-insden.vercel.app
-10.0.0.2 - - [12/Feb/2026:01:47:12] "GET /js/performance.js HTTP/1.1" 200 3072 "-" "Mozilla/5.0" Host: assets.ktcg-insden.vercel.app
-10.0.0.9 - - [12/Feb/2026:01:48:49] "GET /images/icons/user.svg HTTP/1.1" 200 512 "-" "Mozilla/5.0" Host: cdn.ktcg-insden.vercel.app
-10.0.0.1 - - [12/Feb/2026:01:49:26] "GET /warranty HTTP/1.1" 200 1024 "-" "Mozilla/5.0" Host: main.ktcg-insden.vercel.app
-10.0.0.3 - - [12/Feb/2026:01:50:03] "GET /api/coupons HTTP/1.1" 200 2048 "-" "Mozilla/5.0" Host: api.ktcg-insden.vercel.app
-10.0.0.4 - - [12/Feb/2026:01:51:41] "GET /images/category/home.jpg HTTP/1.1" 200 6144 "-" "Mozilla/5.0" Host: cdn.ktcg-insden.vercel.app
-10.0.0.5 - - [12/Feb/2026:01:52:18] "GET /corporate HTTP/1.1" 200 4096 "-" "Mozilla/5.0" Host: main.ktcg-insden.vercel.app
-10.0.0.1 - - [12/Feb/2026:01:53:55] "GET /loyalty HTTP/1.1" 200 1024 "-" "Mozilla/5.0" Host: user.ktcg-insden.vercel.app
-10.0.0.6 - - [12/Feb/2026:01:54:32] "GET /config/editor HTTP/1.1" 403 512 "-" "Mozilla/5.0" Host: admin-panel.ktcg-insden.vercel.app
-10.0.0.7 - - [12/Feb/2026:01:55:09] "GET /master.key HTTP/1.1" 404 256 "-" "Mozilla/5.0" Host: internal.ktcg-insden.vercel.app
-10.0.0.8 - - [12/Feb/2026:01:56:46] "GET /beta HTTP/1.1" 200 3072 "-" "Mozilla/5.0" Host: staging.ktcg-insden.vercel.app
-10.0.0.2 - - [12/Feb/2026:01:57:23] "GET /css/animations.css HTTP/1.1" 200 2048 "-" "Mozilla/5.0" Host: assets.ktcg-insden.vercel.app
-10.0.0.9 - - [12/Feb/2026:01:58:00] "GET /images/icons/search.svg HTTP/1.1" 200 512 "-" "Mozilla/5.0" Host: cdn.ktcg-insden.vercel.app
-10.0.0.1 - - [12/Feb/2026:01:59:37] "GET /press HTTP/1.1" 200 3072 "-" "Mozilla/5.0" Host: main.ktcg-insden.vercel.app
-10.0.0.3 - - [12/Feb/2026:02:00:14] "GET /api/reviews HTTP/1.1" 200 4096 "-" "Mozilla/5.0" Host: api.ktcg-insden.vercel.app
-10.0.0.4 - - [12/Feb/2026:02:01:51] "GET /images/category/sports.jpg HTTP/1.1" 200 6144 "-" "Mozilla/5.0" Host: cdn.ktcg-insden.vercel.app
-10.0.0.5 - - [12/Feb/2026:02:02:28] "GET /affiliate HTTP/1.1" 200 2048 "-" "Mozilla/5.0" Host: main.ktcg-insden.vercel.app
-10.0.0.1 - - [12/Feb/2026:02:03:05] "GET /wishlist/add/123 HTTP/1.1" 200 512 "-" "Mozilla/5.0" Host: user.ktcg-insden.vercel.app
-10.0.0.6 - - [12/Feb/2026:02:04:42] "GET /system/logs HTTP/1.1" 403 512 "-" "Mozilla/5.0" Host: admin-panel.ktcg-insden.vercel.app
-10.0.0.7 - - [12/Feb/2026:02:05:19] "GET /credentials.json HTTP/1.1" 404 256 "-" "Mozilla/5.0" Host: internal.ktcg-insden.vercel.app
-10.0.0.8 - - [12/Feb/2026:02:06:56] "GET /canary HTTP/1.1" 200 1024 "-" "Mozilla/5.0" Host: staging.ktcg-insden.vercel.app
-10.0.0.2 - - [12/Feb/2026:02:07:33] "GET /js/carousel.js HTTP/1.1" 200 3072 "-" "Mozilla/5.0" Host: assets.ktcg-insden.vercel.app
-10.0.0.9 - - [12/Feb/2026:02:08:10] "GET /images/icons/close.svg HTTP/1.1" 200 512 "-" "Mozilla/5.0" Host: cdn.ktcg-insden.vercel.app
-10.0.0.1 - - [12/Feb/2026:02:09:47] "GET /investor HTTP/1.1" 200 4096 "-" "Mozilla/5.0" Host: main.ktcg-insden.vercel.app
-10.0.0.3 - - [12/Feb/2026:02:10:24] "GET /api/returns HTTP/1.1" 200 2048 "-" "Mozilla/5.0" Host: api.ktcg-insden.vercel.app
-10.0.0.4 - - [12/Feb/2026:02:11:01] "GET /images/category/books.jpg HTTP/1.1" 200 5120 "-" "Mozilla/5.0" Host: cdn.ktcg-insden.vercel.app
-10.0.0.5 - - [12/Feb/2026:02:12:38] "GET /partners HTTP/1.1" 200 2048 "-" "Mozilla/5.0" Host: main.ktcg-insden.vercel.app
-10.0.0.1 - - [12/Feb/2026:02:13:15] "GET /cart/checkout HTTP/1.1" 200 1024 "-" "Mozilla/5.0" Host: user.ktcg-insden.vercel.app
-10.0.0.6 - - [12/Feb/2026:02:14:52] "GET /admin/create HTTP/1.1" 403 512 "-" "Mozilla/5.0" Host: admin-panel.ktcg-insden.vercel.app
-10.0.0.7 - - [12/Feb/2026:02:15:29] "GET /token.txt HTTP/1.1" 404 256 "-" "Mozilla/5.0" Host: internal.ktcg-insden.vercel.app
-10.0.0.8 - - [12/Feb/2026:02:16:06] "GET /experimental HTTP/1.1" 200 2048 "-" "Mozilla/5.0" Host: staging.ktcg-insden.vercel.app
-10.0.0.2 - - [12/Feb/2026:02:17:43] "GET /fonts/montserrat.woff2 HTTP/1.1" 200 8192 "-" "Mozilla/5.0" Host: assets.ktcg-insden.vercel.app
-10.0.0.9 - - [12/Feb/2026:02:18:20] "GET /images/icons/menu.svg HTTP/1.1" 200 512 "-" "Mozilla/5.0" Host: cdn.ktcg-insden.vercel.app
-10.0.0.1 - - [12/Feb/2026:02:19:57] "GET /sustainability HTTP/1.1" 200 3072 "-" "Mozilla/5.0" Host: main.ktcg-insden.vercel.app
-10.0.0.3 - - [12/Feb/2026:02:20:34] "GET /api/warranty HTTP/1.1" 200 1024 "-" "Mozilla/5.0" Host: api.ktcg-insden.vercel.app
-10.0.0.4 - - [12/Feb/2026:02:21:11] "GET /images/category/toys.jpg HTTP/1.1" 200 5120 "-" "Mozilla/5.0" Host: cdn.ktcg-insden.vercel.app
-10.0.0.5 - - [12/Feb/2026:02:22:48] "GET /press-kit HTTP/1.1" 200 4096 "-" "Mozilla/5.0" Host: main.ktcg-insden.vercel.app
-10.0.0.1 - - [12/Feb/2026:02:23:25] "GET /orders/cancel/456 HTTP/1.1" 200 512 "-" "Mozilla/5.0" Host: user.ktcg-insden.vercel.app
-10.0.0.6 - - [12/Feb/2026:02:24:02] "GET /config/backup HTTP/1.1" 403 512 "-" "Mozilla/5.0" Host: admin-panel.ktcg-insden.vercel.app
-10.0.0.7 - - [12/Feb/2026:02:25:39] "GET /secret.key HTTP/1.1" 404 256 "-" "Mozilla/5.0" Host: internal.ktcg-insden.vercel.app
-10.0.0.8 - - [12/Feb/2026:02:26:16] "GET /sandbox HTTP/1.1" 200 3072 "-" "Mozilla/5.0" Host: staging.ktcg-insden.vercel.app
-10.0.0.2 - - [12/Feb/2026:02:27:53] "GET /js/lazyload.js HTTP/1.1" 200 2048 "-" "Mozilla/5.0" Host: assets.ktcg-insden.vercel.app
-10.0.0.9 - - [12/Feb/2026:02:28:30] "GET /images/icons/favorite.svg HTTP/1.1" 200 512 "-" "Mozilla/5.0" Host: cdn.ktcg-insden.vercel.app
-10.0.0.1 - - [12/Feb/2026:02:29:07] "GET /accessibility HTTP/1.1" 200 2048 "-" "Mozilla/5.0" Host: main.ktcg-insden.vercel.app
-10.0.0.3 - - [12/Feb/2026:02:30:44] "GET /api/installment HTTP/1.1" 200 2048 "-" "Mozilla/5.0" Host: api.ktcg-insden.vercel.app
-10.0.0.4 - - [12/Feb/2026:02:31:21] "GET /images/category/beauty.jpg HTTP/1.1" 200 6144 "-" "Mozilla/5.0" Host: cdn.ktcg-insden.vercel.app
-10.0.0.5 - - [12/Feb/2026:02:32:58] "GET /ethics HTTP/1.1" 200 3072 "-" "Mozilla/5.0" Host: main.ktcg-insden.vercel.app
-10.0.0.1 - - [12/Feb/2026:02:33:35] "GET /address/add HTTP/1.1" 200 512 "-" "Mozilla/5.0" Host: user.ktcg-insden.vercel.app
-10.0.0.6 - - [12/Feb/2026:02:34:12] "GET /server/status HTTP/1.1" 403 512 "-" "Mozilla/5.0" Host: admin-panel.ktcg-insden.vercel.app
-10.0.0.7 - - [12/Feb/2026:02:35:49] "GET /private.pem HTTP/1.1" 404 256 "-" "Mozilla/5.0" Host: internal.ktcg-insden.vercel.app
-10.0.0.8 - - [12/Feb/2026:02:36:26] "GET /prototype HTTP/1.1" 200 2048 "-" "Mozilla/5.0" Host: staging.ktcg-insden.vercel.app
-10.0.0.2 - - [12/Feb/2026:02:37:03] "GET /css/variables.css HTTP/1.1" 200 1024 "-" "Mozilla/5.0" Host: assets.ktcg-insden.vercel.app
-10.0.0.9 - - [12/Feb/2026:02:38:40] "GET /images/icons/delete.svg HTTP/1.1" 200 512 "-" "Mozilla/5.0" Host: cdn.ktcg-insden.vercel.app
-10.0.0.1 - - [12/Feb/2026:02:39:17] "GET /diversity HTTP/1.1" 200 2048 "-" "Mozilla/5.0" Host: main.ktcg-insden.vercel.app
-10.0.0.3 - - [12/Feb/2026:02:40:54] "GET /api/stock HTTP/1.1" 200 2048 "-" "Mozilla/5.0" Host: api.ktcg-insden.vercel.app
-10.0.0.4 - - [12/Feb/2026:02:41:31] "GET /images/category/grocery.jpg HTTP/1.1" 200 5120 "-" "Mozilla/5.0" Host: cdn.ktcg-insden.vercel.app
-10.0.0.5 - - [12/Feb/2026:02:42:08] "GET /compliance HTTP/1.1" 200 3072 "-" "Mozilla/5.0" Host: main.ktcg-insden.vercel.app
-10.0.0.1 - - [12/Feb/2026:02:43:45] "GET /profile/edit HTTP/1.1" 200 1024 "-" "Mozilla/5.0" Host: user.ktcg-insden.vercel.app
-10.0.0.6 - - [12/Feb/2026:02:44:22] "GET /security/audit HTTP/1.1" 403 512 "-" "Mozilla/5.0" Host: admin-panel.ktcg-insden.vercel.app
-10.0.0.7 - - [12/Feb/2026:02:45:59] "GET /backup_2026.tar.gz HTTP/1.1" 404 256 "-" "Mozilla/5.0" Host: old-backup.ktcg-insden.vercel.app
-10.0.0.8 - - [12/Feb/2026:02:46:36] "GET /alpha HTTP/1.1" 200 1024 "-" "Mozilla/5.0" Host: staging.ktcg-insden.vercel.app
-10.0.0.2 - - [12/Feb/2026:02:47:13] "GET /js/animations.js HTTP/1.1" 200 4096 "-" "Mozilla/5.0" Host: assets.ktcg-insden.vercel.app
-10.0.0.9 - - [12/Feb/2026:02:48:50] "GET /images/icons/settings.svg HTTP/1.1" 200 512 "-" "Mozilla/5.0" Host: cdn.ktcg-insden.vercel.app
-10.0.0.1 - - [12/Feb/2026:02:49:27] "GET /cookie-policy HTTP/1.1" 200 2048 "-" "Mozilla/5.0" Host: main.ktcg-insden.vercel.app
-10.0.0.3 - - [12/Feb/2026:02:50:04] "GET /api/delivery HTTP/1.1" 200 1024 "-" "Mozilla/5.0" Host: api.ktcg-insden.vercel.app
-10.0.0.4 - - [12/Feb/2026:02:51:41] "GET /images/category/pet.jpg HTTP/1.1" 200 5120 "-" "Mozilla/5.0" Host: cdn.ktcg-insden.vercel.app
-10.0.0.5 - - [12/Feb/2026:02:52:18] "GET /modern-slavery HTTP/1.1" 200 2048 "-" "Mozilla/5.0" Host: main.ktcg-insden.vercel.app
-10.0.0.1 - - [12/Feb/2026:02:53:55] "GET /payment/add HTTP/1.1" 200 512 "-" "Mozilla/5.0" Host: user.ktcg-insden.vercel.app
-10.0.0.6 - - [12/Feb/2026:02:54:32] "GET /database/query HTTP/1.1" 403 512 "-" "Mozilla/5.0" Host: admin-panel.ktcg-insden.vercel.app
-10.0.0.7 - - [12/Feb/2026:02:55:09] "GET /data_2025.csv HTTP/1.1" 404 256 "-" "Mozilla/5.0" Host: old-backup.ktcg-insden.vercel.app
-10.0.0.8 - - [12/Feb/2026:02:56:46] "GET /next-gen HTTP/1.1" 200 3072 "-" "Mozilla/5.0" Host: staging.ktcg-insden.vercel.app
-10.0.0.2 - - [12/Feb/2026:02:57:23] "GET /fonts/opensans.woff2 HTTP/1.1" 200 8192 "-" "Mozilla/5.0" Host: assets.ktcg-insden.vercel.app
-10.0.0.9 - - [12/Feb/2026:02:58:00] "GET /images/icons/notification.svg HTTP/1.1" 200 512 "-" "Mozilla/5.0" Host: cdn.ktcg-insden.vercel.app
-10.0.0.1 - - [12/Feb/2026:02:59:37] "GET /patents HTTP/1.1" 200 3072 "-" "Mozilla/5.0" Host: main.ktcg-insden.vercel.app
-10.0.0.3 - - [12/Feb/2026:03:00:14] "GET /api/giftcard HTTP/1.1" 200 2048 "-" "Mozilla/5.0" Host: api.ktcg-insden.vercel.app
-10.0.0.4 - - [12/Feb/2026:03:01:51] "GET /images/category/baby.jpg HTTP/1.1" 200 5120 "-" "Mozilla/5.0" Host: cdn.ktcg-insden.vercel.app
-10.0.0.5 - - [12/Feb/2026:03:02:28] "GET /recruitment HTTP/1.1" 200 4096 "-" "Mozilla/5.0" Host: main.ktcg-insden.vercel.app
-10.0.0.1 - - [12/Feb/2026:03:03:05] "GET /orders/track/789 HTTP/1.1" 200 1024 "-" "Mozilla/5.0" Host: user.ktcg-insden.vercel.app
-10.0.0.6 - - [12/Feb/2026:03:04:42] "GET /cron/status HTTP/1.1" 403 512 "-" "Mozilla/5.0" Host: admin-panel.ktcg-insden.vercel.app
-10.0.0.7 - - [12/Feb/2026:03:05:19] "GET /project_backup.zip HTTP/1.1" 404 256 "-" "Mozilla/5.0" Host: old-backup.ktcg-insden.vercel.app
-10.0.0.8 - - [12/Feb/2026:03:06:56] "GET /prototype-v2 HTTP/1.1" 200 2048 "-" "Mozilla/5.0" Host: staging.ktcg-insden.vercel.app
-10.0.0.2 - - [12/Feb/2026:03:07:33] "GET /js/payment.js HTTP/1.1" 200 3072 "-" "Mozilla/5.0" Host: assets.ktcg-insden.vercel.app
-10.0.0.9 - - [12/Feb/2026:03:08:10] "GET /images/icons/help.svg HTTP/1.1" 200 512 "-" "Mozilla/5.0" Host: cdn.ktcg-insden.vercel.app
-10.0.0.1 - - [12/Feb/2026:03:09:47] "GET /security HTTP/1.1" 200 5120 "-" "Mozilla/5.0" Host: main.ktcg-insden.vercel.app
-10.0.0.3 - - [12/Feb/2026:03:10:24] "GET /api/subscription HTTP/1.1" 200 1024 "-" "Mozilla/5.0" Host: api.ktcg-insden.vercel.app
-10.0.0.4 - - [12/Feb/2026:03:11:01] "GET /images/category/automotive.jpg HTTP/1.1" 200 6144 "-" "Mozilla/5.0" Host: cdn.ktcg-insden.vercel.app
-10.0.0.5 - - [12/Feb/2026:03:12:38] "GET /suppliers HTTP/1.1" 200 2048 "-" "Mozilla/5.0" Host: main.ktcg-insden.vercel.app
-10.0.0.1 - - [12/Feb/2026:03:13:15] "GET /returns/new HTTP/1.1" 200 512 "-" "Mozilla/5.0" Host: user.ktcg-insden.vercel.app
-10.0.0.6 - - [12/Feb/2026:03:14:52] "GET /debug/memory HTTP/1.1" 403 512 "-" "Mozilla/5.0" Host: dev-tools.ktcg-insden.vercel.app
-10.0.0.7 - - [12/Feb/2026:03:15:29] "GET /db_dump.sql HTTP/1.1" 404 256 "-" "Mozilla/5.0" Host: old-backup.ktcg-insden.vercel.app
-10.0.0.8 - - [12/Feb/2026:03:16:06] "GET /preview-v2 HTTP/1.1" 200 3072 "-" "Mozilla/5.0" Host: staging.ktcg-insden.vercel.app
-10.0.0.2 - - [12/Feb/2026:03:17:43] "GET /css/grid.css HTTP/1.1" 200 1024 "-" "Mozilla/5.0" Host: assets.ktcg-insden.vercel.app
-10.0.0.9 - - [12/Feb/2026:03:18:20] "GET /images/icons/download.svg HTTP/1.1" 200 512 "-" "Mozilla/5.0" Host: cdn.ktcg-insden.vercel.app
-10.0.0.1 - - [12/Feb/2026:03:19:57] "GET /gdpr HTTP/1.1" 200 4096 "-" "Mozilla/5.0" Host: main.ktcg-insden.vercel.app
-10.0.0.3 - - [12/Feb/2026:03:20:34] "GET /api/feedback HTTP/1.1" 200 1024 "-" "Mozilla/5.0" Host: api.ktcg-insden.vercel.app
-10.0.0.4 - - [12/Feb/2026:03:21:11] "GET /images/category/health.jpg HTTP/1.1" 200 5120 "-" "Mozilla/5.0" Host: cdn.ktcg-insden.vercel.app
-10.0.0.5 - - [12/Feb/2026:03:22:48] "GET /procurement HTTP/1.1" 200 2048 "-" "Mozilla/5.0" Host: main.ktcg-insden.vercel.app
-10.0.0.1 - - [12/Feb/2026:03:23:25] "GET /support/ticket HTTP/1.1" 200 1024 "-" "Mozilla/5.0" Host: user.ktcg-insden.vercel.app
-10.0.0.6 - - [12/Feb/2026:03:24:02] "GET /api/playground HTTP/1.1" 403 512 "-" "Mozilla/5.0" Host: dev-tools.ktcg-insden.vercel.app
-10.0.0.7 - - [12/Feb/2026:03:25:39] "GET /archive_2024.zip HTTP/1.1" 404 256 "-" "Mozilla/5.0" Host: old-backup.ktcg-insden.vercel.app
-10.0.0.8 - - [12/Feb/2026:03:26:16] "GET /edge HTTP/1.1" 200 2048 "-" "Mozilla/5.0" Host: staging.ktcg-insden.vercel.app
-10.0.0.2 - - [12/Feb/2026:03:27:53] "GET /fonts/lato.woff2 HTTP/1.1" 200 8192 "-" "Mozilla/5.0" Host: assets.ktcg-insden.vercel.app
-10.0.0.9 - - [12/Feb/2026:03:28:30] "GET /images/icons/upload.svg HTTP/1.1" 200 512 "-" "Mozilla/5.0" Host: cdn.ktcg-insden.vercel.app
-10.0.0.1 - - [12/Feb/2026:03:29:07] "GET /ccpa HTTP/1.1" 200 3072 "-" "Mozilla/5.0" Host: main.ktcg-insden.vercel.app
-10.0.0.3 - - [12/Feb/2026:03:30:44] "GET /api/complaint HTTP/1.1" 200 1024 "-" "Mozilla/5.0" Host: api.ktcg-insden.vercel.app
-10.0.0.4 - - [12/Feb/2026:03:31:21] "GET /images/category/office.jpg HTTP/1.1" 200 5120 "-" "Mozilla/5.0" Host: cdn.ktcg-insden.vercel.app
-10.0.0.5 - - [12/Feb/2026:03:32:58] "GET /tenders HTTP/1.1" 200 2048 "-" "Mozilla/5.0" Host: main.ktcg-insden.vercel.app
-10.0.0.1 - - [12/Feb/2026:03:33:35] "GET /invoice/download/123 HTTP/1.1" 200 1024 "-" "Mozilla/5.0" Host: user.ktcg-insden.vercel.app
-10.0.0.6 - - [12/Feb/2026:03:34:12] "GET /console HTTP/1.1" 403 512 "-" "Mozilla/5.0" Host: dev-tools.ktcg-insden.vercel.app
-10.0.0.7 - - [12/Feb/2026:03:35:49] "GET /legacy_backup.tar HTTP/1.1" 404 256 "-" "Mozilla/5.0" Host: old-backup.ktcg-insden.vercel.app
-10.0.0.8 - - [12/Feb/2026:03:36:26] "GET /future HTTP/1.1" 200 3072 "-" "Mozilla/5.0" Host: staging.ktcg-insden.vercel.app
-10.0.0.2 - - [12/Feb/2026:03:37:03] "GET /js/form-validation.js HTTP/1.1" 200 2048 "-" "Mozilla/5.0" Host: assets.ktcg-insden.vercel.app
-10.0.0.9 - - [12/Feb/2026:03:38:40] "GET /images/icons/print.svg HTTP/1.1" 200 512 "-" "Mozilla/5.0" Host: cdn.ktcg-insden.vercel.app
-10.0.0.1 - - [12/Feb/2026:03:39:17] "GET /california-law HTTP/1.1" 200 2048 "-" "Mozilla/5.0" Host: main.ktcg-insden.vercel.app
-10.0.0.3 - - [12/Feb/2026:03:40:54] "GET /api/return-label HTTP/1.1" 200 1024 "-" "Mozilla/5.0" Host: api.ktcg-insden.vercel.app
-10.0.0.4 - - [12/Feb/2026:03:41:31] "GET /images/category/garden.jpg HTTP/1.1" 200 5120 "-" "Mozilla/5.0" Host: cdn.ktcg-insden.vercel.app
-10.0.0.5 - - [12/Feb/2026:03:42:08] "GET /whistleblower HTTP/1.1" 200 4096 "-" "Mozilla/5.0" Host: main.ktcg-insden.vercel.app
-10.0.0.1 - - [12/Feb/2026:03:43:45] "GET /giftcard/balance HTTP/1.1" 200 512 "-" "Mozilla/5.0" Host: user.ktcg-insden.vercel.app
-10.0.0.6 - - [12/Feb/2026:03:44:22] "GET /debug/cpu HTTP/1.1" 403 512 "-" "Mozilla/5.0" Host: dev-tools.ktcg-insden.vercel.app
-10.0.0.7 - - [12/Feb/2026:03:45:59] "GET /mysql_backup.sql HTTP/1.1" 404 256 "-" "Mozilla/5.0" Host: old-backup.ktcg-insden.vercel.app
-10.0.0.8 - - [12/Feb/2026:03:46:36] "GET /innovation HTTP/1.1" 200 2048 "-" "Mozilla/5.0" Host: staging.ktcg-insden.vercel.app
-10.0.0.2 - - [12/Feb/2026:03:47:13] "GET /css/utilities.css HTTP/1.1" 200 1024 "-" "Mozilla/5.0" Host: assets.ktcg-insden.vercel.app
-10.0.0.9 - - [12/Feb/2026:03:48:50] "GET /images/icons/share.svg HTTP/1.1" 200 512 "-" "Mozilla/5.0" Host: cdn.ktcg-insden.vercel.app
-10.0.0.1 - - [12/Feb/2026:03:49:27] "GET /vulnerability-disclosure HTTP/1.1" 200 3072 "-" "Mozilla/5.0" Host: main.ktcg-insden.vercel.app
-10.0.0.3 - - [12/Feb/2026:03:50:04] "GET /api/extended-warranty HTTP/1.1" 200 1024 "-" "Mozilla/5.0" Host: api.ktcg-insden.vercel.app
-10.0.0.4 - - [12/Feb/2026:03:51:41] "GET /images/category/music.jpg HTTP/1.1" 200 5120 "-" "Mozilla/5.0" Host: cdn.ktcg-insden.vercel.app
-10.0.0.5 - - [12/Feb/2026:03:52:18] "GET /code-of-conduct HTTP/1.1" 200 2048 "-" "Mozilla/5.0" Host: main.ktcg-insden.vercel.app
-10.0.0.1 - - [12/Feb/2026:03:53:55] "GET /warranty/claim HTTP/1.1" 200 512 "-" "Mozilla/5.0" Host: user.ktcg-insden.vercel.app
-10.0.0.6 - - [12/Feb/2026:03:54:32] "GET /debug/trace HTTP/1.1" 403 512 "-" "Mozilla/5.0" Host: dev-tools.ktcg-insden.vercel.app
-10.0.0.7 - - [12/Feb/2026:03:55:09] "GET /postgres_dump.sql HTTP/1.1" 404 256 "-" "Mozilla/5.0" Host: old-backup.ktcg-insden.vercel.app
-10.0.0.8 - - [12/Feb/2026:03:56:46] "GET /prototype-v3 HTTP/1.1" 200 3072 "-" "Mozilla/5.0" Host: staging.ktcg-insden.vercel.app
-10.0.0.2 - - [12/Feb/2026:03:57:23] "GET /fonts/raleway.woff2 HTTP/1.1" 200 8192 "-" "Mozilla/5.0" Host: assets.ktcg-insden.vercel.app
-10.0.0.9 - - [12/Feb/2026:03:58:00] "GET /images/icons/refresh.svg HTTP/1.1" 200 512 "-" "Mozilla/5.0" Host: cdn.ktcg-insden.vercel.app
-10.0.0.1 - - [12/Feb/2026:03:59:37] "GET /responsible-disclosure HTTP/1.1" 200 4096 "-" "Mozilla/5.0" Host: main.ktcg-insden.vercel.app
-10.0.0.3 - - [12/Feb/2026:04:00:14] "GET /api/damaged HTTP/1.1" 200 1024 "-" "Mozilla/5.0" Host: api.ktcg-insden.vercel.app
-10.0.0.4 - - [12/Feb/2026:04:01:51] "GET /images/category/movies.jpg HTTP/1.1" 200 5120 "-" "Mozilla/5.0" Host: cdn.ktcg-insden.vercel.app
-10.0.0.5 - - [12/Feb/2026:04:02:28] "GET /climate HTTP/1.1" 200 3072 "-" "Mozilla/5.0" Host: main.ktcg-insden.vercel.app
-10.0.0.1 - - [12/Feb/2026:04:03:05] "GET /payment/refund HTTP/1.1" 200 512 "-" "Mozilla/5.0" Host: user.ktcg-insden.vercel.app
-10.0.0.6 - - [12/Feb/2026:04:04:42] "GET /phpinfo.php HTTP/1.1" 403 512 "-" "Mozilla/5.0" Host: dev-tools.ktcg-insden.vercel.app
-10.0.0.7 - - [12/Feb/2026:04:05:19] "GET /mongodb_dump.gz HTTP/1.1" 404 256 "-" "Mozilla/5.0" Host: old-backup.ktcg-insden.vercel.app
-10.0.0.8 - - [12/Feb/2026:04:06:56] "GET /cutting-edge HTTP/1.1" 200 2048 "-" "Mozilla/5.0" Host: staging.ktcg-insden.vercel.app
-10.0.0.2 - - [12/Feb/2026:04:07:33] "GET /js/cookie-consent.js HTTP/1.1" 200 2048 "-" "Mozilla/5.0" Host: assets.ktcg-insden.vercel.app
-10.0.0.9 - - [12/Feb/2026:04:08:10] "GET /images/icons/lock.svg HTTP/1.1" 200 512 "-" "Mozilla/5.0" Host: cdn.ktcg-insden.vercel.app
-10.0.0.1 - - [12/Feb/2026:04:09:47] "GET /bug-bounty HTTP/1.1" 200 5120 "-" "Mozilla/5.0" Host: main.ktcg-insden.vercel.app
-10.0.0.3 - - [12/Feb/2026:04:10:24] "GET /api/wishlist HTTP/1.1" 200 1024 "-" "Mozilla/5.0" Host: api.ktcg-insden.vercel.app
-10.0.0.4 - - [12/Feb/2026:04:11:01] "GET /images/category/video-games.jpg HTTP/1.1" 200 6144 "-" "Mozilla/5.0" Host: cdn.ktcg-insden.vercel.app
-10.0.0.5 - - [12/Feb/2026:04:12:38] "GET /renewable HTTP/1.1" 200 2048 "-" "Mozilla/5.0" Host: main.ktcg-insden.vercel.app
-10.0.0.1 - - [12/Feb/2026:04:13:15] "GET /address/delete/456 HTTP/1.1" 200 512 "-" "Mozilla/5.0" Host: user.ktcg-insden.vercel.app
-10.0.0.6 - - [12/Feb/2026:04:14:52] "GET /test-cases HTTP/1.1" 200 3072 "-" "Mozilla/5.0" Host: dev-tools.ktcg-insden.vercel.app
-10.0.0.7 - - [12/Feb/2026:04:15:29] "GET /redis_dump.rdb HTTP/1.1" 404 256 "-" "Mozilla/5.0" Host: old-backup.ktcg-insden.vercel.app
-10.0.0.8 - - [12/Feb/2026:04:16:06] "GET /experiment-401 HTTP/1.1" 200 1024 "-" "Mozilla/5.0" Host: staging.ktcg-insden.vercel.app
-10.0.0.2 - - [12/Feb/2026:04:17:43] "GET /css/accessibility.css HTTP/1.1" 200 1024 "-" "Mozilla/5.0" Host: assets.ktcg-insden.vercel.app
-10.0.0.9 - - [12/Feb/2026:04:18:20] "GET /images/icons/star.svg HTTP/1.1" 200 512 "-" "Mozilla/5.0" Host: cdn.ktcg-insden.vercel.app
-10.0.0.1 - - [12/Feb/2026:04:19:57] "GET /hall-of-fame HTTP/1.1" 200 3072 "-" "Mozilla/5.0" Host: main.ktcg-insden.vercel.app
-10.0.0.3 - - [12/Feb/2026:04:20:34] "GET /api/giftcard-reload HTTP/1.1" 200 1024 "-" "Mozilla/5.0" Host: api.ktcg-insden.vercel.app
-10.0.0.4 - - [12/Feb/2026:04:21:11] "GET /images/category/software.jpg HTTP/1.1" 200 5120 "-" "Mozilla/5.0" Host: cdn.ktcg-insden.vercel.app
-10.0.0.5 - - [12/Feb/2026:04:22:48] "GET /diversity-report HTTP/1.1" 200 4096 "-" "Mozilla/5.0" Host: main.ktcg-insden.vercel.app
-10.0.0.1 - - [12/Feb/2026:04:23:25] "GET /orders/return/789 HTTP/1.1" 200 512 "-" "Mozilla/5.0" Host: user.ktcg-insden.vercel.app
-10.0.0.6 - - [12/Feb/2026:04:24:02] "GET /benchmark HTTP/1.1" 200 2048 "-" "Mozilla/5.0" Host: dev-tools.ktcg-insden.vercel.app
-10.0.0.7 - - [12/Feb/2026:04:25:39] "GET /elasticsearch_dump.json HTTP/1.1" 404 256 "-" "Mozilla/5.0" Host: old-backup.ktcg-insden.vercel.app
-10.0.0.8 - - [12/Feb/2026:04:26:16] "GET /bleeding-edge HTTP/1.1" 200 3072 "-" "Mozilla/5.0" Host: staging.ktcg-insden.vercel.app
-10.0.0.2 - - [12/Feb/2026:04:27:53] "GET /fonts/merriweather.woff2 HTTP/1.1" 200 8192 "-" "Mozilla/5.0" Host: assets.ktcg-insden.vercel.app
-10.0.0.9 - - [12/Feb/2026:04:28:30] "GET /images/icons/clock.svg HTTP/1.1" 200 512 "-" "Mozilla/5.0" Host: cdn.ktcg-insden.vercel.app
-10.0.0.1 - - [12/Feb/2026:04:29:07] "GET /threat-modeling HTTP/1.1" 200 3072 "-" "Mozilla/5.0" Host: main.ktcg-insden.vercel.app
-10.0.0.3 - - [12/Feb/2026:04:30:44] "GET /api/price-match HTTP/1.1" 200 1024 "-" "Mozilla/5.0" Host: api.ktcg-insden.vercel.app
-10.0.0.4 - - [12/Feb/2026:04:31:21] "GET /images/category/instruments.jpg HTTP/1.1" 200 6144 "-" "Mozilla/5.0" Host: cdn.ktcg-insden.vercel.app
-10.0.0.5 - - [12/Feb/2026:04:32:58] "GET /human-rights HTTP/1.1" 200 2048 "-" "Mozilla/5.0" Host: main.ktcg-insden.vercel.app
-10.0.0.1 - - [12/Feb/2026:04:33:35] "GET /payment/history HTTP/1.1" 200 2048 "-" "Mozilla/5.0" Host: user.ktcg-insden.vercel.app
-10.0.0.6 - - [12/Feb/2026:04:34:12] "GET /coverage HTTP/1.1" 200 1024 "-" "Mozilla/5.0" Host: dev-tools.ktcg-insden.vercel.app
-10.0.0.7 - - [12/Feb/2026:04:35:49] "GET /cassandra_dump.tar HTTP/1.1" 404 256 "-" "Mozilla/5.0" Host: old-backup.ktcg-insden.vercel.app
-10.0.0.8 - - [12/Feb/2026:04:36:26] "GET /prototype-v4 HTTP/1.1" 200 2048 "-" "Mozilla/5.0" Host: staging.ktcg-insden.vercel.app
-10.0.0.2 - - [12/Feb/2026:04:37:03] "GET /js/web-vitals.js HTTP/1.1" 200 2048 "-" "Mozilla/5.0" Host: assets.ktcg-insden.vercel.app
-10.0.0.9 - - [12/Feb/2026:04:38:40] "GET /images/icons/calendar.svg HTTP/1.1" 200 512 "-" "Mozilla/5.0" Host: cdn.ktcg-insden.vercel.app
-10.0.0.1 - - [12/Feb/2026:04:39:17] "GET /red-team HTTP/1.1" 200 4096 "-" "Mozilla/5.0" Host: main.ktcg-insden.vercel.app
-10.0.0.3 - - [12/Feb/2026:04:40:54] "GET /api/store-credit HTTP/1.1" 200 1024 "-" "Mozilla/5.0" Host: api.ktcg-insden.vercel.app
-10.0.0.4 - - [12/Feb/2026:04:41:31] "GET /images/category/arts.jpg HTTP/1.1" 200 5120 "-" "Mozilla/5.0" Host: cdn.ktcg-insden.vercel.app
-10.0.0.5 - - [12/Feb/2026:04:42:08] "GET /conflict-minerals HTTP/1.1" 200 2048 "-" "Mozilla/5.0" Host: main.ktcg-insden.vercel.app
-10.0.0.1 - - [12/Feb/2026:04:43:45] "GET /coupons/apply HTTP/1.1" 200 512 "-" "Mozilla/5.0" Host: user.ktcg-insden.vercel.app
-10.0.0.6 - - [12/Feb/2026:04:44:22] "GET /profiler HTTP/1.1" 200 3072 "-" "Mozilla/5.0" Host: dev-tools.ktcg-insden.vercel.app
-10.0.0.7 - - [12/Feb/2026:04:45:59] "GET /influxdb_backup.tar HTTP/1.1" 404 256 "-" "Mozilla/5.0" Host: old-backup.ktcg-insden.vercel.app
-10.0.0.8 - - [12/Feb/2026:04:46:36] "GET /alpha-test HTTP/1.1" 200 1024 "-" "Mozilla/5.0" Host: staging.ktcg-insden.vercel.app
-10.0.0.2 - - [12/Feb/2026:04:47:13] "GET /css/print.css HTTP/1.1" 200 1024 "-" "Mozilla/5.0" Host: assets.ktcg-insden.vercel.app
-10.0.0.9 - - [12/Feb/2026:04:48:50] "GET /images/icons/comment.svg HTTP/1.1" 200 512 "-" "Mozilla/5.0" Host: cdn.ktcg-insden.vercel.app
-10.0.0.1 - - [12/Feb/2026:04:49:27] "GET /purple-team HTTP/1.1" 200 3072 "-" "Mozilla/5.0" Host: main.ktcg-insden.vercel.app
-10.0.0.3 - - [12/Feb/2026:04:50:04] "GET /api/bulk-discount HTTP/1.1" 200 1024 "-" "Mozilla/5.0" Host: api.ktcg-insden.vercel.app
-10.0.0.4 - - [12/Feb/2026:04:51:41] "GET /images/category/crafts.jpg HTTP/1.1" 200 5120 "-" "Mozilla/5.0" Host: cdn.ktcg-insden.vercel.app
-10.0.0.5 - - [12/Feb/2026:04:52:18] "GET /tax-strategy HTTP/1.1" 200 2048 "-" "Mozilla/5.0" Host: main.ktcg-insden.vercel.app
-10.0.0.1 - - [12/Feb/2026:04:53:55] "GET /returns/status/456 HTTP/1.1" 200 512 "-" "Mozilla/5.0" Host: user.ktcg-insden.vercel.app
-10.0.0.6 - - [12/Feb/2026:04:54:32] "GET /swagger-ui HTTP/1.1" 200 4096 "-" "Mozilla/5.0" Host: dev-tools.ktcg-insden.vercel.app
-10.0.0.7 - - [12/Feb/2026:04:55:09] "GET /couchdb_dump.json HTTP/1.1" 404 256 "-" "Mozilla/5.0" Host: old-backup.ktcg-insden.vercel.app
-10.0.0.8 - - [12/Feb/2026:04:56:46] "GET /nightly HTTP/1.1" 200 3072 "-" "Mozilla/5.0" Host: staging.ktcg-insden.vercel.app
-10.0.0.2 - - [12/Feb/2026:04:57:23] "GET /fonts/playfair.woff2 HTTP/1.1" 200 8192 "-" "Mozilla/5.0" Host: assets.ktcg-insden.vercel.app
-10.0.0.9 - - [12/Feb/2026:04:58:00] "GET /images/icons/alert.svg HTTP/1.1" 200 512 "-" "Mozilla/5.0" Host: cdn.ktcg-insden.vercel.app
-10.0.0.1 - - [12/Feb/2026:04:59:37] "GET /cybersecurity-framework HTTP/1.1" 200 5120 "-" "Mozilla/5.0" Host: main.ktcg-insden.vercel.app
-10.0.0.3 - - [12/Feb/2026:05:00:14] "GET /api/trade-in HTTP/1.1" 200 1024 "-" "Mozilla/5.0" Host: api.ktcg-insden.vercel.app
-10.0.0.4 - - [12/Feb/2026:05:01:51] "GET /images/category/party.jpg HTTP/1.1" 200 5120 "-" "Mozilla/5.0" Host: cdn.ktcg-insden.vercel.app
-10.0.0.5 - - [12/Feb/2026:05:02:28] "GET /gender-pay-gap HTTP/1.1" 200 2048 "-" "Mozilla/5.0" Host: main.ktcg-insden.vercel.app
-10.0.0.1 - - [12/Feb/2026:05:03:05] "GET /warranty/status/789 HTTP/1.1" 200 512 "-" "Mozilla/5.0" Host: user.ktcg-insden.vercel.app
-10.0.0.6 - - [12/Feb/2026:05:04:42] "GET /graphql-playground HTTP/1.1" 200 3072 "-" "Mozilla/5.0" Host: dev-tools.ktcg-insden.vercel.app
-10.0.0.7 - - [12/Feb/2026:05:05:19] "GET /neo4j_dump.dump HTTP/1.1" 404 256 "-" "Mozilla/5.0" Host: old-backup.ktcg-insden.vercel.app
-10.0.0.8 - - [12/Feb/2026:05:06:56] "GET /preview-channel HTTP/1.1" 200 2048 "-" "Mozilla/5.0" Host: staging.ktcg-insden.vercel.app
-10.0.0.2 - - [12/Feb/2026:05:07:33] "GET /js/pwa.js HTTP/1.1" 200 4096 "-" "Mozilla/5.0" Host: assets.ktcg-insden.vercel.app
-10.0.0.9 - - [12/Feb/2026:05:08:10] "GET /images/icons/mail.svg HTTP/1.1" 200 512 "-" "Mozilla/5.0" Host: cdn.ktcg-insden.vercel.app
-10.0.0.1 - - [12/Feb/2026:05:09:47] "GET /ransomware-readiness HTTP/1.1" 200 4096 "-" "Mozilla/5.0" Host: main.ktcg-insden.vercel.app
-10.0.0.3 - - [12/Feb/2026:05:10:24] "GET /api/student-discount HTTP/1.1" 200 1024 "-" "Mozilla/5.0" Host: api.ktcg-insden.vercel.app
-10.0.0.4 - - [12/Feb/2026:05:11:01] "GET /images/category/wedding.jpg HTTP/1.1" 200 6144 "-" "Mozilla/5.0" Host: cdn.ktcg-insden.vercel.app
-10.0.0.5 - - [12/Feb/2026:05:12:38] "GET /living-wage HTTP/1.1" 200 2048 "-" "Mozilla/5.0" Host: main.ktcg-insden.vercel.app
-10.0.0.1 - - [12/Feb/2026:05:13:15] "GET /giftcard/send HTTP/1.1" 200 512 "-" "Mozilla/5.0" Host: user.ktcg-insden.vercel.app
-10.0.0.6 - - [12/Feb/2026:05:14:52] "GET /redoc HTTP/1.1" 200 3072 "-" "Mozilla/5.0" Host: dev-tools.ktcg-insden.vercel.app
-10.0.0.7 - - [12/Feb/2026:05:15:29] "GET /db_snapshot_2025.sql HTTP/1.1" 404 256 "-" "Mozilla/5.0" Host: old-backup.ktcg-insden.vercel.app
-10.0.0.8 - - [12/Feb/2026:05:16:06] "GET /canary-release HTTP/1.1" 200 1024 "-" "Mozilla/5.0" Host: staging.ktcg-insden.vercel.app
-10.0.0.2 - - [12/Feb/2026:05:17:43] "GET /css/dark-theme.css HTTP/1.1" 200 2048 "-" "Mozilla/5.0" Host: assets.ktcg-insden.vercel.app
-10.0.0.9 - - [12/Feb/2026:05:18:20] "GET /images/icons/phone.svg HTTP/1.1" 200 512 "-" "Mozilla/5.0" Host: cdn.ktcg-insden.vercel.app
-10.0.0.1 - - [12/Feb/2026:05:19:57] "GET /zero-trust HTTP/1.1" 200 5120 "-" "Mozilla/5.0" Host: main.ktcg-insden.vercel.app
-10.0.0.3 - - [12/Feb/2026:05:20:34] "GET /api/military-discount HTTP/1.1" 200 1024 "-" "Mozilla/5.0" Host: api.ktcg-insden.vercel.app
-10.0.0.4 - - [12/Feb/2026:05:21:11] "GET /images/category/collectibles.jpg HTTP/1.1" 200 5120 "-" "Mozilla/5.0" Host: cdn.ktcg-insden.vercel.app
-10.0.0.5 - - [12/Feb/2026:05:22:48] "GET /water-stewardship HTTP/1.1" 200 2048 "-" "Mozilla/5.0" Host: main.ktcg-insden.vercel.app
-10.0.0.1 - - [12/Feb/2026:05:23:25] "GET /preorder/123 HTTP/1.1" 200 512 "-" "Mozilla/5.0" Host: user.ktcg-insden.vercel.app
-10.0.0.6 - - [12/Feb/2026:05:24:02] "GET /api-docs/v1 HTTP/1.1" 200 4096 "-" "Mozilla/5.0" Host: dev-tools.ktcg-insden.vercel.app
-10.0.0.7 - - [12/Feb/2026:05:25:39] "GET /backup_2025_full.tar.gz HTTP/1.1" 404 256 "-" "Mozilla/5.0" Host: old-backup.ktcg-insden.vercel.app
-10.0.0.8 - - [12/Feb/2026:05:26:16] "GET /experimental-feature HTTP/1.1" 200 3072 "-" "Mozilla/5.0" Host: staging.ktcg-insden.vercel.app
-10.0.0.2 - - [12/Feb/2026:05:27:53] "GET /fonts/roboto-mono.woff2 HTTP/1.1" 200 8192 "-" "Mozilla/5.0" Host: assets.ktcg-insden.vercel.app
-10.0.0.9 - - [12/Feb/2026:05:28:30] "GET /images/icons/location.svg HTTP/1.1" 200 512 "-" "Mozilla/5.0" Host: cdn.ktcg-insden.vercel.app
-10.0.0.1 - - [12/Feb/2026:05:29:07] "GET /security-awareness HTTP/1.1" 200 3072 "-" "Mozilla/5.0" Host: main.ktcg-insden.vercel.app
-10.0.0.3 - - [12/Feb/2026:05:30:44] "GET /api/senior-discount HTTP/1.1" 200 1024 "-" "Mozilla/5.0" Host: api.ktcg-insden.vercel.app
-10.0.0.4 - - [12/Feb/2026:05:31:21] "GET /images/category/furniture.jpg HTTP/1.1" 200 6144 "-" "Mozilla/5.0" Host: cdn.ktcg-insden.vercel.app
-10.0.0.5 - - [12/Feb/2026:05:32:58] "GET /carbon-footprint HTTP/1.1" 200 2048 "-" "Mozilla/5.0" Host: main.ktcg-insden.vercel.app
-10.0.0.1 - - [12/Feb/2026:05:33:35] "GET /subscription/upgrade HTTP/1.1" 200 512 "-" "Mozilla/5.0" Host: user.ktcg-insden.vercel.app
-10.0.0.6 - - [12/Feb/2026:05:34:12] "GET /graphiql HTTP/1.1" 200 3072 "-" "Mozilla/5.0" Host: dev-tools.ktcg-insden.vercel.app
-10.0.0.7 - - [12/Feb/2026:05:35:49] "GET /data_export_2024.csv HTTP/1.1" 404 256 "-" "Mozilla/5.0" Host: old-backup.ktcg-insden.vercel.app
-10.0.0.8 - - [12/Feb/2026:05:36:26] "GET /prototype-v5 HTTP/1.1" 200 2048 "-" "Mozilla/5.0" Host: staging.ktcg-insden.vercel.app
-10.0.0.2 - - [12/Feb/2026:05:37:03] "GET /js/service-worker.js HTTP/1.1" 200 2048 "-" "Mozilla/5.0" Host: assets.ktcg-insden.vercel.app
-10.0.0.9 - - [12/Feb/2026:05:38:40] "GET /images/icons/chat.svg HTTP/1.1" 200 512 "-" "Mozilla/5.0" Host: cdn.ktcg-insden.vercel.app
-10.0.0.1 - - [12/Feb/2026:05:39:17] "GET /phishing-simulation HTTP/1.1" 200 4096 "-" "Mozilla/5.0" Host: main.ktcg-insden.vercel.app
-10.0.0.3 - - [12/Feb/2026:05:40:54] "GET /api/clearance HTTP/1.1" 200 1024 "-" "Mozilla/5.0" Host: api.ktcg-insden.vercel.app
-10.0.0.4 - - [12/Feb/2026:05:41:31] "GET /images/category/appliances.jpg HTTP/1.1" 200 5120 "-" "Mozilla/5.0" Host: cdn.ktcg-insden.vercel.app
-10.0.0.5 - - [12/Feb/2026:05:42:08] "GET /recycling HTTP/1.1" 200 2048 "-" "Mozilla/5.0" Host: main.ktcg-insden.vercel.app
-10.0.0.1 - - [12/Feb/2026:05:43:45] "GET /giftcard/check-balance HTTP/1.1" 200 512 "-" "Mozilla/5.0" Host: user.ktcg-insden.vercel.app
-10.0.0.6 - - [12/Feb/2026:05:44:22] "GET /docs HTTP/1.1" 200 5120 "-" "Mozilla/5.0" Host: dev-tools.ktcg-insden.vercel.app
-10.0.0.7 - - [12/Feb/2026:05:45:59] "GET /production_backup_2026.tar HTTP/1.1" 404 256 "-" "Mozilla/5.0" Host: old-backup.ktcg-insden.vercel.app
-10.0.0.8 - - [12/Feb/2026:05:46:36] "GET /preview-123 HTTP/1.1" 200 1024 "-" "Mozilla/5.0" Host: staging.ktcg-insden.vercel.app
-10.0.0.2 - - [12/Feb/2026:05:47:13] "GET /css/high-contrast.css HTTP/1.1" 200 1024 "-" "Mozilla/5.0" Host: assets.ktcg-insden.vercel.app
-10.0.0.9 - - [12/Feb/2026:05:48:50] "GET /images/icons/attachment.svg HTTP/1.1" 200 512 "-" "Mozilla/5.0" Host: cdn.ktcg-insden.vercel.app
-10.0.0.1 - - [12/Feb/2026:05:49:27] "GET /insider-threat HTTP/1.1" 200 3072 "-" "Mozilla/5.0" Host: main.ktcg-insden.vercel.app
-10.0.0.3 - - [12/Feb/2026:05:50:04] "GET /api/flash-sale HTTP/1.1" 200 1024 "-" "Mozilla/5.0" Host: api.ktcg-insden.vercel.app
-10.0.0.4 - - [12/Feb/2026:05:51:41] "GET /images/category/jewelry.jpg HTTP/1.1" 200 5120 "-" "Mozilla/5.0" Host: cdn.ktcg-insden.vercel.app
-10.0.0.5 - - [12/Feb/2026:05:52:18] "GET /packaging HTTP/1.1" 200 2048 "-" "Mozilla/5.0" Host: main.ktcg-insden.vercel.app
-10.0.0.1 - - [12/Feb/2026:05:53:55] "GET /returns/label/789 HTTP/1.1" 200 512 "-" "Mozilla/5.0" Host: user.ktcg-insden.vercel.app
-10.0.0.6 - - [12/Feb/2026:05:54:32] "GET /postman-collection HTTP/1.1" 200 2048 "-" "Mozilla/5.0" Host: dev-tools.ktcg-insden.vercel.app
-10.0.0.7 - - [12/Feb/2026:05:55:09] "GET /weekly_backup_12.sql HTTP/1.1" 404 256 "-" "Mozilla/5.0" Host: old-backup.ktcg-insden.vercel.app
-10.0.0.8 - - [12/Feb/2026:05:56:46] "GET /feature-flag HTTP/1.1" 200 1024 "-" "Mozilla/5.0" Host: staging.ktcg-insden.vercel.app
-10.0.0.2 - - [12/Feb/2026:05:57:23] "GET /fonts/source-sans.woff2 HTTP/1.1" 200 8192 "-" "Mozilla/5.0" Host: assets.ktcg-insden.vercel.app
-10.0.0.9 - - [12/Feb/2026:05:58:00] "GET /images/icons/camera.svg HTTP/1.1" 200 512 "-" "Mozilla/5.0" Host: cdn.ktcg-insden.vercel.app
-10.0.0.1 - - [12/Feb/2026:05:59:37] "GET /data-breach-response HTTP/1.1" 200 5120 "-" "Mozilla/5.0" Host: main.ktcg-insden.vercel.app
-10.0.0.3 - - [12/Feb/2026:06:00:14] "GET /api/bundle-discount HTTP/1.1" 200 1024 "-" "Mozilla/5.0" Host: api.ktcg-insden.vercel.app
-10.0.0.4 - - [12/Feb/2026:06:01:51] "GET /images/category/luggage.jpg HTTP/1.1" 200 5120 "-" "Mozilla/5.0" Host: cdn.ktcg-insden.vercel.app
-10.0.0.5 - - [12/Feb/2026:06:02:28] "GET /product-safety HTTP/1.1" 200 2048 "-" "Mozilla/5.0" Host: main.ktcg-insden.vercel.app
-10.0.0.1 - - [12/Feb/2026:06:03:05] "GET /invoice/print/123 HTTP/1.1" 200 1024 "-" "Mozilla/5.0" Host: user.ktcg-insden.vercel.app
-10.0.0.6 - - [12/Feb/2026:06:04:42] "GET /openapi.json HTTP/1.1" 200 4096 "-" "Mozilla/5.0" Host: dev-tools.ktcg-insden.vercel.app
-10.0.0.7 - - [12/Feb/2026:06:05:19] "GET /database_snapshot_2026.sql HTTP/1.1" 404 256 "-" "Mozilla/5.0" Host: old-backup.ktcg-insden.vercel.app
-10.0.0.8 - - [12/Feb/2026:06:06:56] "GET /ab-testing HTTP/1.1" 200 3072 "-" "Mozilla/5.0" Host: staging.ktcg-insden.vercel.app
-10.0.0.2 - - [12/Feb/2026:06:07:33] "GET /js/sentry.js HTTP/1.1" 200 3072 "-" "Mozilla/5.0" Host: assets.ktcg-insden.vercel.app
-10.0.0.9 - - [12/Feb/2026:06:08:10] "GET /images/icons/video.svg HTTP/1.1" 200 512 "-" "Mozilla/5.0" Host: cdn.ktcg-insden.vercel.app
-10.0.0.1 - - [12/Feb/2026:06:09:47] "GET /incident-response HTTP/1.1" 200 4096 "-" "Mozilla/5.0" Host: main.ktcg-insden.vercel.app
-10.0.0.3 - - [12/Feb/2026:06:10:24] "GET /api/corporate-discount HTTP/1.1" 200 1024 "-" "Mozilla/5.0" Host: api.ktcg-insden.vercel.app
-10.0.0.4 - - [12/Feb/2026:06:11:01] "GET /images/category/shoes.jpg HTTP/1.1" 200 6144 "-" "Mozilla/5.0" Host: cdn.ktcg-insden.vercel.app
-10.0.0.5 - - [12/Feb/2026:06:12:38] "GET /chemicals-policy HTTP/1.1" 200 2048 "-" "Mozilla/5.0" Host: main.ktcg-insden.vercel.app
-10.0.0.1 - - [12/Feb/2026:06:13:15] "GET /subscription/cancel HTTP/1.1" 200 512 "-" "Mozilla/5.0" Host: user.ktcg-insden.vercel.app
-10.0.0.6 - - [12/Feb/2026:06:14:52] "GET /insomnia-export HTTP/1.1" 200 2048 "-" "Mozilla/5.0" Host: dev-tools.ktcg-insden.vercel.app
-10.0.0.7 - - [12/Feb/2026:06:15:29] "GET /legacy_system_backup.iso HTTP/1.1" 404 256 "-" "Mozilla/5.0" Host: old-backup.ktcg-insden.vercel.app
-10.0.0.8 - - [12/Feb/2026:06:16:06] "GET /prototype-v6 HTTP/1.1" 200 2048 "-" "Mozilla/5.0" Host: staging.ktcg-insden.vercel.app
-10.0.0.2 - - [12/Feb/2026:06:17:43] "GET /css/ie-fallback.css HTTP/1.1" 200 1024 "-" "Mozilla/5.0" Host: assets.ktcg-insden.vercel.app
-10.0.0.9 - - [12/Feb/2026:06:18:20] "GET /images/icons/mic.svg HTTP/1.1" 200 512 "-" "Mozilla/5.0" Host: cdn.ktcg-insden.vercel.app
-10.0.0.1 - - [12/Feb/2026:06:19:57] "GET /threat-intel HTTP/1.1" 200 5120 "-" "Mozilla/5.0" Host: main.ktcg-insden.vercel.app
-10.0.0.3 - - [12/Feb/2026:06:20:34] "GET /api/nonprofit-discount HTTP/1.1" 200 1024 "-" "Mozilla/5.0" Host: api.ktcg-insden.vercel.app
-10.0.0.4 - - [12/Feb/2026:06:21:11] "GET /images/category/watches.jpg HTTP/1.1" 200 5120 "-" "Mozilla/5.0" Host: cdn.ktcg-insden.vercel.app
-10.0.0.5 - - [12/Feb/2026:06:22:48] "GET /anti-slavery HTTP/1.1" 200 2048 "-" "Mozilla/5.0" Host: main.ktcg-insden.vercel.app
-10.0.0.1 - - [12/Feb/2026:06:23:25] "GET /address/default/456 HTTP/1.1" 200 512 "-" "Mozilla/5.0" Host: user.ktcg-insden.vercel.app
-10.0.0.6 - - [12/Feb/2026:06:24:02] "GET /soap-api HTTP/1.1" 200 3072 "-" "Mozilla/5.0" Host: dev-tools.ktcg-insden.vercel.app
-10.0.0.7 - - [12/Feb/2026:06:25:39] "GET /daily_backup_2026-02-12.sql.gz HTTP/1.1" 404 256 "-" "Mozilla/5.0" Host: old-backup.ktcg-insden.vercel.app
-10.0.0.8 - - [12/Feb/2026:06:26:16] "GET /staging-123 HTTP/1.1" 200 1024 "-" "Mozilla/5.0" Host: staging.ktcg-insden.vercel.app
-10.0.0.2 - - [12/Feb/2026:06:27:53] "GET /fonts/ubuntu.woff2 HTTP/1.1" 200 8192 "-" "Mozilla/5.0" Host: assets.ktcg-insden.vercel.app
-10.0.0.9 - - [12/Feb/2026:06:28:30] "GET /images/icons/headphones.svg HTTP/1.1" 200 512 "-" "Mozilla/5.0" Host: cdn.ktcg-insden.vercel.app
-10.0.0.1 - - [12/Feb/2026:06:29:07] "GET /vulnerability-management HTTP/1.1" 200 4096 "-" "Mozilla/5.0" Host: main.ktcg-insden.vercel.app
-10.0.0.3 - - [12/Feb/2026:06:30:44] "GET /api/teacher-discount HTTP/1.1" 200 1024 "-" "Mozilla/5.0" Host: api.ktcg-insden.vercel.app
-10.0.0.4 - - [12/Feb/2026:06:31:21] "GET /images/category/sunglasses.jpg HTTP/1.1" 200 5120 "-" "Mozilla/5.0" Host: cdn.ktcg-insden.vercel.app
-10.0.0.5 - - [12/Feb/2026:06:32:58] "GET /food-safety HTTP/1.1" 200 2048 "-" "Mozilla/5.0" Host: main.ktcg-insden.vercel.app
-10.0.0.1 - - [12/Feb/2026:06:33:35] "GET /coupons/available HTTP/1.1" 200 1024 "-" "Mozilla/5.0" Host: user.ktcg-insden.vercel.app
-10.0.0.42 - - [12/Feb/2026:10:27:33] "GET /dashboard/reports HTTP/1.1" 200 4096 "-" "Mozilla/5.0" Host: internal-tools.ktcg-insden.vercel.app
-10.0.0.15 - - [12/Feb/2026:10:29:47] "GET /api/health HTTP/1.1" 200 512 "-" "Mozilla/5.0" Host: api.ktcg-insden.vercel.app
-10.0.0.23 - - [12/Feb/2026:10:31:52] "GET /images/icons/analytics.svg HTTP/1.1" 200 512 "-" "Mozilla/5.0" Host: cdn.ktcg-insden.vercel.app
-10.0.0.37 - - [12/Feb/2026:10:34:18] "GET /js/charts.js HTTP/1.1" 200 6144 "-" "Mozilla/5.0" Host: assets.ktcg-insden.vercel.app
-10.0.0.19 - - [12/Feb/2026:10:36:41] "GET /users/activity HTTP/1.1" 200 2048 "-" "Mozilla/5.0" Host: admin-panel.ktcg-insden.vercel.app
-10.0.0.31 - - [12/Feb/2026:10:39:05] "GET /metrics/cpu HTTP/1.1" 200 1024 "-" "Mozilla/5.0" Host: monitor.ktcg-insden.vercel.app
-10.0.0.44 - - [12/Feb/2026:10:41:29] "GET /profile/preferences HTTP/1.1" 200 1024 "-" "Mozilla/5.0" Host: user.ktcg-insden.vercel.app
-10.0.0.28 - - [12/Feb/2026:10:43:53] "GET /api/export/csv HTTP/1.1" 200 3072 "-" "Mozilla/5.0" Host: api.ktcg-insden.vercel.app
-10.0.0.99 - - [12/Feb/2026:11:17:22] "GET /assets/css/main.css HTTP/1.1" 200 2048 "-" "Mozilla/5.0" Host: weekly-reportktcg-insden.vercel.app/
-10.0.0.12 - - [12/Feb/2026:11:19:46] "GET /images/logo-dark.png HTTP/1.1" 200 10240 "-" "Mozilla/5.0" Host: cdn.ktcg-insden.vercel.app
-10.0.0.33 - - [12/Feb/2026:11:22:10] "GET /js/bootstrap.js HTTP/1.1" 200 8192 "-" "Mozilla/5.0" Host: assets.ktcg-insden.vercel.app
-10.0.0.25 - - [12/Feb/2026:11:24:34] "GET /api/bandwidth HTTP/1.1" 200 512 "-" "Mozilla/5.0" Host: monitor.ktcg-insden.vercel.app
-10.0.0.41 - - [12/Feb/2026:11:26:58] "GET /admin/settings HTTP/1.1" 403 512 "-" "Mozilla/5.0" Host: admin-panel.ktcg-insden.vercel.app
-10.0.0.18 - - [12/Feb/2026:11:29:22] "GET /orders/recent HTTP/1.1" 200 2048 "-" "Mozilla/5.0" Host: user.ktcg-insden.vercel.app
-10.0.0.29 - - [12/Feb/2026:11:31:46] "GET /api/debug HTTP/1.1" 200 1024 "-" "Mozilla/5.0" Host: dev-tools.ktcg-insden.vercel.app
-10.0.0.36 - - [12/Feb/2026:11:34:10] "GET /sitemap-index.xml HTTP/1.1" 200 1024 "-" "Mozilla/5.0" Host: crawler.ktcg-insden.vercel.app
-10.0.0.22 - - [12/Feb/2026:11:36:34] "GET /fonts/arial.woff2 HTTP/1.1" 200 8192 "-" "Mozilla/5.0" Host: assets.ktcg-insden.vercel.app
-10.0.0.47 - - [12/Feb/2026:11:38:58] "GET /api/rate-limit HTTP/1.1" 200 512 "-" "Mozilla/5.0" Host: api.ktcg-insden.vercel.app
-10.0.0.13 - - [12/Feb/2026:11:41:22] "GET /images/banner-promo.jpg HTTP/1.1" 200 5120 "-" "Mozilla/5.0" Host: cdn.ktcg-insden.vercel.app
-10.0.0.38 - - [12/Feb/2026:11:43:46] "GET /js/custom.js HTTP/1.1" 200 3072 "-" "Mozilla/5.0" Host: assets.ktcg-insden.vercel.app
-10.0.0.26 - - [12/Feb/2026:11:46:10] "GET /metrics/memory HTTP/1.1" 200 1024 "-" "Mozilla/5.0" Host: monitor.ktcg-insden.vercel.app
-10.0.0.49 - - [12/Feb/2026:11:48:34] "GET /admin/users/create HTTP/1.1" 403 512 "-" "Mozilla/5.0" Host: admin-panel.ktcg-insden.vercel.app
-10.0.0.17 - - [12/Feb/2026:11:50:58] "GET /returns/history HTTP/1.1" 200 1024 "-" "Mozilla/5.0" Host: user.ktcg-insden.vercel.app
-10.0.0.35 - - [12/Feb/2026:11:53:22] "GET /api/feature-flags HTTP/1.1" 200 1024 "-" "Mozilla/5.0" Host: dev-tools.ktcg-insden.vercel.app
-10.0.0.21 - - [12/Feb/2026:11:55:46] "GET /ads.txt HTTP/1.1" 200 512 "-" "Mozilla/5.0" Host: crawler.ktcg-insden.vercel.app
-10.0.0.45 - - [12/Feb/2026:11:58:10] "GET /css/rtl.css HTTP/1.1" 200 1024 "-" "Mozilla/5.0" Host: assets.ktcg-insden.vercel.app
-10.0.0.14 - - [12/Feb/2026:12:00:34] "GET /api/version HTTP/1.1" 200 512 "-" "Mozilla/5.0" Host: api.ktcg-insden.vercel.app
-10.0.0.32 - - [12/Feb/2026:12:02:58] "GET /images/footer-bg.jpg HTTP/1.1" 200 4096 "-" "Mozilla/5.0" Host: cdn.ktcg-insden.vercel.app
-10.0.0.24 - - [12/Feb/2026:12:05:22] "GET /js/lottie.js HTTP/1.1" 200 5120 "-" "Mozilla/5.0" Host: assets.ktcg-insden.vercel.app
-10.0.0.39 - - [12/Feb/2026:12:07:46] "GET /metrics/disk HTTP/1.1" 200 1024 "-" "Mozilla/5.0" Host: monitor.ktcg-insden.vercel.app
-10.0.0.27 - - [12/Feb/2026:12:10:10] "GET /admin/analytics HTTP/1.1" 403 512 "-" "Mozilla/5.0" Host: admin-panel.ktcg-insden.vercel.app
-10.0.0.48 - - [12/Feb/2026:12:12:34] "GET /wishlist/share HTTP/1.1" 200 512 "-" "Mozilla/5.0" Host: user.ktcg-insden.vercel.app
-10.0.0.16 - - [12/Feb/2026:12:14:58] "GET /api/webhooks HTTP/1.1" 200 2048 "-" "Mozilla/5.0" Host: api.ktcg-insden.vercel.app
-10.0.0.34 - - [12/Feb/2026:12:17:22] "GET /images/placeholder.png HTTP/1.1" 200 1024 "-" "Mozilla/5.0" Host: cdn.ktcg-insden.vercel.app
-10.0.0.46 - - [12/Feb/2026:12:19:46] "GET /js/recaptcha.js HTTP/1.1" 200 3072 "-" "Mozilla/5.0" Host: assets.ktcg-insden.vercel.app
-10.0.0.11 - - [12/Feb/2026:12:22:10] "GET / HTTP/1.1" 200 5120 "-" "Mozilla/5.0" Host: main.ktcg-insden.vercel.app
-10.0.0.52 - - [12/Feb/2026:12:24:34] "GET /css/global.css HTTP/1.1" 200 2048 "-" "Mozilla/5.0" Host: assets.ktcg-insden.vercel.app
-10.0.0.43 - - [12/Feb/2026:12:26:58] "GET /api/cart HTTP/1.1" 200 1024 "-" "Mozilla/5.0" Host: api.ktcg-insden.vercel.app
-10.0.0.53 - - [12/Feb/2026:12:29:22] "GET /images/product-456.jpg HTTP/1.1" 200 5120 "-" "Mozilla/5.0" Host: cdn.ktcg-insden.vercel.app
-10.0.0.54 - - [12/Feb/2026:12:31:46] "GET /js/checkout.js HTTP/1.1" 200 4096 "-" "Mozilla/5.0" Host: assets.ktcg-insden.vercel.app
-10.0.0.55 - - [12/Feb/2026:12:34:10] "GET /dashboard/metrics HTTP/1.1" 200 2048 "-" "Mozilla/5.0" Host: monitor.ktcg-insden.vercel.app
-10.0.0.56 - - [12/Feb/2026:12:36:34] "GET /admin/backup HTTP/1.1" 403 512 "-" "Mozilla/5.0" Host: admin-panel.ktcg-insden.vercel.app
-10.0.0.57 - - [12/Feb/2026:12:38:58] "GET /profile/orders HTTP/1.1" 200 2048 "-" "Mozilla/5.0" Host: user.ktcg-insden.vercel.app
-10.0.0.58 - - [12/Feb/2026:12:41:22] "GET /api/status HTTP/1.1" 200 512 "-" "Mozilla/5.0" Host: api.ktcg-insden.vercel.app
-10.0.0.59 - - [12/Feb/2026:12:43:46] "GET /images/icons/new.svg HTTP/1.1" 200 512 "-" "Mozilla/5.0" Host: cdn.ktcg-insden.vercel.app
-10.0.0.60 - - [12/Feb/2026:12:46:10] "GET /js/swiper.js HTTP/1.1" 200 6144 "-" "Mozilla/5.0" Host: assets.ktcg-insden.vercel.app
-10.0.0.61 - - [12/Feb/2026:12:48:34] "GET /about-us HTTP/1.1" 200 4096 "-" "Mozilla/5.0" Host: main.ktcg-insden.vercel.app
-10.0.0.62 - - [12/Feb/2026:12:50:58] "GET /contact-sales HTTP/1.1" 200 2048 "-" "Mozilla/5.0" Host: main.ktcg-insden.vercel.app
-10.0.0.63 - - [12/Feb/2026:12:53:22] "GET /api/support HTTP/1.1" 200 1024 "-" "Mozilla/5.0" Host: api.ktcg-insden.vercel.app
-10.0.0.64 - - [12/Feb/2026:12:55:46] "GET /images/team.jpg HTTP/1.1" 200 7168 "-" "Mozilla/5.0" Host: cdn.ktcg-insden.vercel.app
-10.0.0.65 - - [12/Feb/2026:12:58:10] "GET /js/maps.js HTTP/1.1" 200 3072 "-" "Mozilla/5.0" Host: assets.ktcg-insden.vercel.app
-10.0.0.66 - - [12/Feb/2026:13:00:34] "GET /investor-relations HTTP/1.1" 200 5120 "-" "Mozilla/5.0" Host: main.ktcg-insden.vercel.app
-10.0.0.67 - - [12/Feb/2026:13:02:58] "GET /careers/engineering HTTP/1.1" 200 4096 "-" "Mozilla/5.0" Host: main.ktcg-insden.vercel.app
-10.0.0.68 - - [12/Feb/2026:13:05:22] "GET /api/jobs HTTP/1.1" 200 2048 "-" "Mozilla/5.0" Host: api.ktcg-insden.vercel.app
-10.0.0.69 - - [12/Feb/2026:13:07:46] "GET /images/office.jpg HTTP/1.1" 200 6144 "-" "Mozilla/5.0" Host: cdn.ktcg-insden.vercel.app
-10.0.0.70 - - [12/Feb/2026:13:10:10] "GET /js/datepicker.js HTTP/1.1" 200 4096 "-" "Mozilla/5.0" Host: assets.ktcg-insden.vercel.app
-10.0.0.71 - - [12/Feb/2026:13:12:34] "GET /news/press-release HTTP/1.1" 200 3072 "-" "Mozilla/5.0" Host: main.ktcg-insden.vercel.app
-10.0.0.72 - - [12/Feb/2026:13:14:58] "GET /events HTTP/1.1" 200 2048 "-" "Mozilla/5.0" Host: main.ktcg-insden.vercel.app
-10.0.0.73 - - [12/Feb/2026:13:17:22] "GET /api/webinar HTTP/1.1" 200 1024 "-" "Mozilla/5.0" Host: api.ktcg-insden.vercel.app
-10.0.0.74 - - [12/Feb/2026:13:19:46] "GET /images/conference.jpg HTTP/1.1" 200 5120 "-" "Mozilla/5.0" Host: cdn.ktcg-insden.vercel.app
-10.0.0.75 - - [12/Feb/2026:13:22:10] "GET /js/analytics-v2.js HTTP/1.1" 200 5120 "-" "Mozilla/5.0" Host: assets.ktcg-insden.vercel.app
-10.0.0.76 - - [12/Feb/2026:13:24:34] "GET /legal/terms HTTP/1.1" 200 6144 "-" "Mozilla/5.0" Host: main.ktcg-insden.vercel.app
-10.0.0.77 - - [12/Feb/2026:13:26:58] "GET /legal/privacy HTTP/1.1" 200 5120 "-" "Mozilla/5.0" Host: main.ktcg-insden.vercel.app
-10.0.0.78 - - [12/Feb/2026:13:29:22] "GET /api/cookies HTTP/1.1" 200 1024 "-" "Mozilla/5.0" Host: api.ktcg-insden.vercel.app
-10.0.0.79 - - [12/Feb/2026:13:31:46] "GET /images/cookie-policy.jpg HTTP/1.1" 200 4096 "-" "Mozilla/5.0" Host: cdn.ktcg-insden.vercel.app
-10.0.0.80 - - [12/Feb/2026:13:34:10] "GET /js/gdpr.js HTTP/1.1" 200 3072 "-" "Mozilla/5.0" Host: assets.ktcg-insden.vercel.app
-10.0.0.81 - - [12/Feb/2026:13:36:34] "GET /security/report HTTP/1.1" 200 4096 "-" "Mozilla/5.0" Host: main.ktcg-insden.vercel.app
-10.0.0.82 - - [12/Feb/2026:13:38:58] "GET /bug-bounty/rules HTTP/1.1" 200 3072 "-" "Mozilla/5.0" Host: main.ktcg-insden.vercel.app
-10.0.0.83 - - [12/Feb/2026:13:41:22] "GET /api/submissions HTTP/1.1" 200 1024 "-" "Mozilla/5.0" Host: api.ktcg-insden.vercel.app
-10.0.0.84 - - [12/Feb/2026:13:43:46] "GET /images/hacker.jpg HTTP/1.1" 200 5120 "-" "Mozilla/5.0" Host: cdn.ktcg-insden.vercel.app
-10.0.0.85 - - [12/Feb/2026:13:46:10] "GET /js/security.js HTTP/1.1" 200 4096 "-" "Mozilla/5.0" Host: assets.ktcg-insden.vercel.app
-10.0.0.86 - - [12/Feb/2026:13:48:34] "GET /careers/security HTTP/1.1" 200 4096 "-" "Mozilla/5.0" Host: main.ktcg-insden.vercel.app
-10.0.0.87 - - [12/Feb/2026:13:50:58] "GET /products/new HTTP/1.1" 200 5120 "-" "Mozilla/5.0" Host: main.ktcg-insden.vercel.app
-10.0.0.88 - - [12/Feb/2026:13:53:22] "GET /api/trending HTTP/1.1" 200 2048 "-" "Mozilla/5.0" Host: api.ktcg-insden.vercel.app
-10.0.0.89 - - [12/Feb/2026:13:55:46] "GET /images/bestseller.jpg HTTP/1.1" 200 6144 "-" "Mozilla/5.0" Host: cdn.ktcg-insden.vercel.app
-10.0.0.90 - - [12/Feb/2026:13:58:10] "GET /js/product-gallery.js HTTP/1.1" 200 5120 "-" "Mozilla/5.0" Host: assets.ktcg-insden.vercel.app
-10.0.0.91 - - [12/Feb/2026:14:00:34] "GET /sale/spring HTTP/1.1" 200 4096 "-" "Mozilla/5.0" Host: main.ktcg-insden.vercel.app
-10.0.0.92 - - [12/Feb/2026:14:02:58] "GET /clearance HTTP/1.1" 200 3072 "-" "Mozilla/5.0" Host: main.ktcg-insden.vercel.app
-10.0.0.93 - - [12/Feb/2026:14:05:22] "GET /api/discounts HTTP/1.1" 200 1024 "-" "Mozilla/5.0" Host: api.ktcg-insden.vercel.app
-10.0.0.94 - - [12/Feb/2026:14:07:46] "GET /images/sale-banner.jpg HTTP/1.1" 200 5120 "-" "Mozilla/5.0" Host: cdn.ktcg-insden.vercel.app
-10.0.0.95 - - [12/Feb/2026:14:10:10] "GET /js/countdown.js HTTP/1.1" 200 2048 "-" "Mozilla/5.0" Host: assets.ktcg-insden.vercel.app
-10.0.0.96 - - [12/Feb/2026:14:12:34] "GET /black-friday HTTP/1.1" 200 6144 "-" "Mozilla/5.0" Host: main.ktcg-insden.vercel.app
-10.0.0.97 - - [12/Feb/2026:14:14:58] "GET /cyber-monday HTTP/1.1" 200 5120 "-" "Mozilla/5.0" Host: main.ktcg-insden.vercel.app
-10.0.0.98 - - [12/Feb/2026:14:17:22] "GET /api/holiday HTTP/1.1" 200 1024 "-" "Mozilla/5.0" Host: api.ktcg-insden.vercel.app
-10.0.0.99 - - [12/Feb/2026:14:19:46] "GET /images/holiday.jpg HTTP/1.1" 200 5120 "-" "Mozilla/5.0" Host: cdn.ktcg-insden.vercel.app
-10.0.0.100 - - [12/Feb/2026:14:22:10] "GET /js/snowfall.js HTTP/1.1" 200 3072 "-" "Mozilla/5.0" Host: assets.ktcg-insden.vercel.app
+10.23.145.67 - - [12/Feb/2026:08:23:17] "GET /dashboard/reports?session=9a8b7c6d&token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9 HTTP/1.1" 500 1024 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" Host: internal-tools.ktcg-insden.vercel.app
+172.25.188.42 - - [12/Feb/2026:08:31:45] "GET /api/health?cache=no-store&v=2.3.1 HTTP/1.1" 200 512 "-" "PostmanRuntime/7.36.0" Host: api.ktcg-insden.vercel.app
+192.168.47.129 - - [12/Feb/2026:08:42:33] "GET /images/icons/analytics.svg?cb=20260212 HTTP/1.1" 200 512 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2 Safari/605.1.15" Host: cdn.ktcg-insden.vercel.app
+10.89.234.18 - - [12/Feb/2026:08:55:21] "GET /js/charts.js?debug=true&minified=false HTTP/1.1" 500 6144 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" Host: assets.ktcg-insden.vercel.app
+172.31.56.203 - - [12/Feb/2026:09:07:09] "GET /users/activity?page=3&limit=50&sort=desc HTTP/1.1" 200 2048 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 17_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1" Host: admin-panel.ktcg-insden.vercel.app
+10.112.78.34 - - [12/Feb/2026:09:18:47] "GET /metrics/cpu?interval=5m&format=json HTTP/1.1" 500 1024 "-" "curl/8.4.0" Host: monitor.ktcg-insden.vercel.app
+192.168.93.211 - - [12/Feb/2026:09:26:35] "GET /profile/preferences?theme=dark&lang=id HTTP/1.1" 200 1024 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/121.0" Host: user.ktcg-insden.vercel.app
+10.45.167.89 - - [12/Feb/2026:09:39:14] "GET /api/export/csv?format=detailed&fields=id,name,email&date_from=2026-02-01 HTTP/1.1" 500 3072 "-" "Mozilla/5.0 (iPad; CPU OS 17_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1" Host: api.ktcg-insden.vercel.app
+172.18.234.76 - - [12/Feb/2026:09:51:52] "GET /assets/css/main.css?v=1.2.3&critical=true HTTP/1.1" 200 2048 "-" "Mozilla/5.0 (Linux; Android 14; SM-S918B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.6167.164 Mobile Safari/537.36" Host: weekly-reportktcg-insden.vercel.app
+10.234.145.33 - - [12/Feb/2026:10:03:28] "GET /images/logo-dark.png?width=300&height=100&format=webp HTTP/1.1" 500 10240 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:121.0) Gecko/20100101 Firefox/121.0" Host: cdn.ktcg-insden.vercel.app
+192.168.156.88 - - [12/Feb/2026:10:15:41] "GET /js/bootstrap.js?module=true&async=false HTTP/1.1" 200 8192 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:121.0) Gecko/20100101 Firefox/121.0" Host: assets.ktcg-insden.vercel.app
+10.67.189.42 - - [12/Feb/2026:10:27:19] "GET /api/bandwidth?interface=eth0&unit=mbps HTTP/1.1" 500 512 "-" "Python-urllib/3.11" Host: monitor.ktcg-insden.vercel.app
+172.29.78.155 - - [12/Feb/2026:10:39:07] "GET /admin/settings?section=security&tab=authentication HTTP/1.1" 403 512 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" Host: admin-panel.ktcg-insden.vercel.app
+10.201.67.223 - - [12/Feb/2026:10:51:33] "GET /orders/recent?status=shipped&days=7 HTTP/1.1" 200 2048 "-" "Mozilla/5.0 (Android 14; Mobile; rv:121.0) Gecko/121.0 Firefox/121.0" Host: user.ktcg-insden.vercel.app
+192.168.234.91 - - [12/Feb/2026:11:02:58] "GET /api/debug?trace=true&memory=true HTTP/1.1" 500 1024 "-" "Insomnia/2023.5.8" Host: dev-tools.ktcg-insden.vercel.app
+10.143.55.177 - - [12/Feb/2026:11:14:26] "GET /sitemap-index.xml?lang=en&gzip=true HTTP/1.1" 200 1024 "-" "Googlebot/2.1 (+http://www.google.com/bot.html)" Host: crawler.ktcg-insden.vercel.app
+172.20.189.34 - - [12/Feb/2026:11:26:44] "GET /fonts/arial.woff2?weight=400&style=normal HTTP/1.1" 200 8192 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" Host: assets.ktcg-insden.vercel.app
+10.88.234.67 - - [12/Feb/2026:11:38:12] "GET /api/rate-limit?endpoint=login&method=POST HTTP/1.1" 500 512 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" Host: api.ktcg-insden.vercel.app
+192.168.45.202 - - [12/Feb/2026:11:49:51] "GET /images/banner-promo.jpg?campaign=spring&size=desktop HTTP/1.1" 200 5120 "-" "Mozilla/5.0 (Linux; Android 13; SM-T970) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.6167.164 Safari/537.36" Host: cdn.ktcg-insden.vercel.app
+10.156.78.39 - - [12/Feb/2026:12:01:37] "GET /js/custom.js?nocache=12345678&v=3.2.1 HTTP/1.1" 500 3072 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/120.0" Host: assets.ktcg-insden.vercel.app
+172.24.167.88 - - [12/Feb/2026:12:13:15] "GET /metrics/memory?gc=true&heap=dump HTTP/1.1" 200 1024 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" Host: monitor.ktcg-insden.vercel.app
+10.34.189.56 - - [12/Feb/2026:12:25:43] "GET /admin/users/create?role=admin&department=IT HTTP/1.1" 403 512 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 16_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.6 Mobile/15E148 Safari/604.1" Host: admin-panel.ktcg-insden.vercel.app
+192.168.178.123 - - [12/Feb/2026:12:37:29] "GET /returns/history?from=2026-01-01&status=completed HTTP/1.1" 500 1024 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.5 Safari/605.1.15" Host: user.ktcg-insden.vercel.app
+10.212.45.77 - - [12/Feb/2026:12:49:08] "GET /api/feature-flags?app=web&env=production HTTP/1.1" 200 1024 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" Host: dev-tools.ktcg-insden.vercel.app
+172.27.134.91 - - [12/Feb/2026:13:01:34] "GET /ads.txt?pub_id=12345&network=google HTTP/1.1" 500 512 "-" "AdsBot-Google (+http://www.google.com/adsbot.html)" Host: crawler.ktcg-insden.vercel.app
+10.78.223.44 - - [12/Feb/2026:13:13:52] "GET /css/rtl.css?force=true&lang=ar HTTP/1.1" 200 1024 "-" "Mozilla/5.0 (Linux; Android 12; SM-G998B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.6167.164 Mobile Safari/537.36" Host: assets.ktcg-insden.vercel.app
+192.168.201.67 - - [12/Feb/2026:13:25:21] "GET /api/version?check=beta&channel=canary HTTP/1.1" 500 512 "-" "curl/8.1.2" Host: api.ktcg-insden.vercel.app
+10.145.67.188 - - [12/Feb/2026:13:37:46] "GET /images/footer-bg.jpg?quality=85&format=avif HTTP/1.1" 200 4096 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 OPR/106.0.0.0" Host: cdn.ktcg-insden.vercel.app
+172.31.89.234 - - [12/Feb/2026:13:49:14] "GET /js/lottie.js?worker=true&cors=allow HTTP/1.1" 500 5120 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" Host: assets.ktcg-insden.vercel.app
+10.199.34.76 - - [12/Feb/2026:14:01:38] "GET /metrics/disk?mount=/dev/sda1&threshold=80 HTTP/1.1" 200 1024 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/119.0" Host: monitor.ktcg-insden.vercel.app
+192.168.67.123 - - [12/Feb/2026:14:13:05] "GET /admin/analytics?range=last30days&metric=conversion HTTP/1.1" 403 512 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" Host: admin-panel.ktcg-insden.vercel.app
+10.56.178.99 - - [12/Feb/2026:14:25:44] "GET /wishlist/share?id=789abc&token=secure_hash_123 HTTP/1.1" 500 512 "-" "Mozilla/5.0 (iPad; CPU OS 16_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.6 Mobile/15E148 Safari/604.1" Host: user.ktcg-insden.vercel.app
+172.19.145.33 - - [12/Feb/2026:14:37:22] "GET /api/webhooks?source=github&event=push HTTP/1.1" 200 2048 "-" "GitHub-Hookshot/2.5.0" Host: api.ktcg-insden.vercel.app
+10.234.89.167 - - [12/Feb/2026:14:49:51] "GET /images/placeholder.png?mode=blur&size=thumbnail HTTP/1.1" 500 1024 "-" "Mozilla/5.0 (Linux; Android 11; SM-A525F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.6167.164 Mobile Safari/537.36" Host: cdn.ktcg-insden.vercel.app
+192.168.44.212 - - [12/Feb/2026:15:01:29] "GET /js/recaptcha.js?sitekey=6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI&lang=id HTTP/1.1" 200 3072 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" Host: assets.ktcg-insden.vercel.app
+10.78.234.155 - - [12/Feb/2026:15:13:08] "GET /?ref=newsletter&campaign=spring2026&source=twitter HTTP/1.1" 500 5120 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 17_1_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1" Host: main.ktcg-insden.vercel.app
+172.28.167.43 - - [12/Feb/2026:15:25:36] "GET /css/global.css?prefers-color-scheme=dark&reduced-motion=false HTTP/1.1" 200 2048 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/118.0" Host: assets.ktcg-insden.vercel.app
+10.145.89.234 - - [12/Feb/2026:15:37:14] "GET /api/cart?user_id=12345&session=abcde12345 HTTP/1.1" 500 1024 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:120.0) Gecko/20100101 Firefox/120.0" Host: api.ktcg-insden.vercel.app
+192.168.156.78 - - [12/Feb/2026:15:49:42] "GET /images/product-456.jpg?w=800&h=800&fit=crop&q=90 HTTP/1.1" 200 5120 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" Host: cdn.ktcg-insden.vercel.app
+10.67.123.88 - - [12/Feb/2026:16:01:19] "GET /js/checkout.js?payment_method=all&validation=true HTTP/1.1" 500 4096 "-" "Mozilla/5.0 (Android 14; Mobile; rv:120.0) Gecko/120.0 Firefox/120.0" Host: assets.ktcg-insden.vercel.app
+172.23.45.167 - - [12/Feb/2026:16:13:57] "GET /dashboard/metrics?widget=cpu,memory,disk&refresh=30 HTTP/1.1" 200 2048 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" Host: monitor.ktcg-insden.vercel.app
+10.201.78.34 - - [12/Feb/2026:16:25:25] "GET /admin/backup?type=full&compress=gzip HTTP/1.1" 403 512 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/121.0" Host: admin-panel.ktcg-insden.vercel.app
+192.168.89.212 - - [12/Feb/2026:16:37:03] "GET /profile/orders?status=pending&page=2&sort=date_desc HTTP/1.1" 500 2048 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" Host: user.ktcg-insden.vercel.app
+10.34.167.55 - - [12/Feb/2026:16:49:31] "GET /api/status?format=json&full=true HTTP/1.1" 200 512 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 15_8 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.0 Mobile/15E148 Safari/604.1" Host: api.ktcg-insden.vercel.app
+172.26.189.77 - - [12/Feb/2026:17:01:58] "GET /images/icons/new.svg?color=blue&animated=false HTTP/1.1" 500 512 "-" "Mozilla/5.0 (Linux; Android 13; Pixel 7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.6167.164 Mobile Safari/537.36" Host: cdn.ktcg-insden.vercel.app
+10.189.45.123 - - [12/Feb/2026:17:13:26] "GET /js/swiper.js?lazy=true&autoplay=5000 HTTP/1.1" 200 6144 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" Host: assets.ktcg-insden.vercel.app
+192.168.34.201 - - [12/Feb/2026:17:25:54] "GET /about-us?lang=en&utm_source=google HTTP/1.1" 500 4096 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2 Safari/605.1.15" Host: main.ktcg-insden.vercel.app
+10.78.223.98 - - [12/Feb/2026:17:37:32] "GET /contact-sales?product=enterprise&region=asia HTTP/1.1" 200 2048 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" Host: main.ktcg-insden.vercel.app
+172.20.156.44 - - [12/Feb/2026:17:49:09] "GET /api/support?ticket_id=98765&priority=high HTTP/1.1" 500 1024 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:118.0) Gecko/20100101 Firefox/118.0" Host: api.ktcg-insden.vercel.app
+10.112.89.167 - - [12/Feb/2026:18:01:37] "GET /images/team.jpg?filter=grayscale&crop=square HTTP/1.1" 200 7168 "-" "Mozilla/5.0 (iPad; CPU OS 17_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1" Host: cdn.ktcg-insden.vercel.app
+192.168.77.234 - - [12/Feb/2026:18:13:15] "GET /js/maps.js?api_key=AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg&region=ID HTTP/1.1" 500 3072 "-" "Mozilla/5.0 (Android 12; SM-G991B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.6099.210 Mobile Safari/537.36" Host: assets.ktcg-insden.vercel.app
+10.201.45.188 - - [12/Feb/2026:18:25:43] "GET /investor-relations?year=2026&quarter=Q1 HTTP/1.1" 200 5120 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" Host: main.ktcg-insden.vercel.app
+172.29.134.55 - - [12/Feb/2026:18:37:21] "GET /careers/engineering?level=senior&remote=true HTTP/1.1" 500 4096 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" Host: main.ktcg-insden.vercel.app
+10.67.178.99 - - [12/Feb/2026:18:49:58] "GET /api/jobs?department=IT&location=jakarta HTTP/1.1" 200 2048 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/121.0" Host: api.ktcg-insden.vercel.app
+192.168.123.45 - - [12/Feb/2026:19:01:26] "GET /images/office.jpg?brightness=1.1&contrast=1.2 HTTP/1.1" 500 6144 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 17_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1" Host: cdn.ktcg-insden.vercel.app
+10.145.67.234 - - [12/Feb/2026:19:13:04] "GET /js/datepicker.js?locale=id&format=DD/MM/YYYY HTTP/1.1" 200 4096 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" Host: assets.ktcg-insden.vercel.app
+172.18.89.176 - - [12/Feb/2026:19:25:32] "GET /news/press-release?id=pr-2026-001&lang=en HTTP/1.1" 500 3072 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" Host: main.ktcg-insden.vercel.app
+10.234.56.78 - - [12/Feb/2026:19:37:59] "GET /events?category=webinar&start=2026-02-01&end=2026-02-28 HTTP/1.1" 200 2048 "-" "Mozilla/5.0 (Linux; Android 14; SM-S918U) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.6167.164 Mobile Safari/537.36" Host: main.ktcg-insden.vercel.app
+192.168.201.34 - - [12/Feb/2026:19:49:37] "GET /api/webinar?register=true&email=test@example.com HTTP/1.1" 500 1024 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/120.0" Host: api.ktcg-insden.vercel.app
+10.89.123.45 - - [12/Feb/2026:20:01:15] "GET /images/conference.jpg?format=webp&width=1920 HTTP/1.1" 200 5120 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:121.0) Gecko/20100101 Firefox/121.0" Host: cdn.ktcg-insden.vercel.app
+172.25.167.88 - - [12/Feb/2026:20:13:43] "GET /js/analytics-v2.js?sampling=10&compress=true HTTP/1.1" 500 5120 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" Host: assets.ktcg-insden.vercel.app
+10.56.189.34 - - [12/Feb/2026:20:25:21] "GET /legal/terms?version=2026.01&locale=id HTTP/1.1" 200 6144 "-" "Mozilla/5.0 (iPad; CPU OS 15_8 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.0 Mobile/15E148 Safari/604.1" Host: main.ktcg-insden.vercel.app
+192.168.45.167 - - [12/Feb/2026:20:37:48] "GET /legal/privacy?country=ID&lang=id HTTP/1.1" 500 5120 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" Host: main.ktcg-insden.vercel.app
+10.178.34.99 - - [12/Feb/2026:20:49:26] "GET /api/cookies?consent=true&type=analytics HTTP/1.1" 200 1024 "-" "Mozilla/5.0 (Android 13; SM-T500) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.6167.164 Safari/537.36" Host: api.ktcg-insden.vercel.app
+172.31.67.123 - - [12/Feb/2026:21:01:54] "GET /images/cookie-policy.jpg?lang=id&dark=true HTTP/1.1" 500 4096 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 16_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.5 Mobile/15E148 Safari/604.1" Host: cdn.ktcg-insden.vercel.app
+10.123.89.234 - - [12/Feb/2026:21:13:32] "GET /js/gdpr.js?mode=strict&cookies=false HTTP/1.1" 200 3072 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" Host: assets.ktcg-insden.vercel.app
+192.168.78.45 - - [12/Feb/2026:21:25:09] "GET /security/report?type=vulnerability&product=all HTTP/1.1" 500 4096 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/119.0" Host: main.ktcg-insden.vercel.app
+10.67.234.188 - - [12/Feb/2026:21:37:47] "GET /bug-bounty/rules?program=web&severity=critical HTTP/1.1" 200 3072 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" Host: main.ktcg-insden.vercel.app
+172.20.145.33 - - [12/Feb/2026:21:49:25] "GET /api/submissions?hacker=anonymous&report_id=67890 HTTP/1.1" 500 1024 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.1 Safari/605.1.15" Host: api.ktcg-insden.vercel.app
+10.189.56.77 - - [12/Feb/2026:22:01:03] "GET /images/hacker.jpg?size=full&watermark=false HTTP/1.1" 200 5120 "-" "Mozilla/5.0 (Android 12; SM-G996B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.6099.210 Mobile Safari/537.36" Host: cdn.ktcg-insden.vercel.app
+192.168.134.99 - - [12/Feb/2026:22:13:41] "GET /js/security.js?csrf_protection=true&xss_filter=strict HTTP/1.1" 500 4096 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/121.0" Host: assets.ktcg-insden.vercel.app
+10.34.178.56 - - [12/Feb/2026:22:25:18] "GET /careers/security?role=analyst&level=senior HTTP/1.1" 200 4096 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" Host: main.ktcg-insden.vercel.app
+172.26.89.123 - - [12/Feb/2026:22:37:46] "GET /products/new?category=electronics&sort=latest HTTP/1.1" 500 5120 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 17_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1" Host: main.ktcg-insden.vercel.app
+10.201.45.67 - - [12/Feb/2026:22:49:24] "GET /api/trending?period=weekly&limit=10 HTTP/1.1" 200 2048 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" Host: api.ktcg-insden.vercel.app
+192.168.56.234 - - [12/Feb/2026:23:01:52] "GET /images/bestseller.jpg?badge=true&discount=50 HTTP/1.1" 500 6144 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0" Host: cdn.ktcg-insden.vercel.app
+10.78.189.45 - - [12/Feb/2026:23:13:30] "GET /js/product-gallery.js?lightbox=true&zoom=hover HTTP/1.1" 200 5120 "-" "Mozilla/5.0 (Android 14; Pixel 8) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.6167.164 Mobile Safari/537.36" Host: assets.ktcg-insden.vercel.app
+172.23.167.88 - - [12/Feb/2026:23:25:08] "GET /sale/spring?category=all&discount=30-50 HTTP/1.1" 500 4096 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/118.0" Host: main.ktcg-insden.vercel.app
+10.112.34.177 - - [12/Feb/2026:23:37:46] "GET /clearance?department=home&price_min=10&price_max=100 HTTP/1.1" 200 3072 "-" "Mozilla/5.0 (iPad; CPU OS 16_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.5 Mobile/15E148 Safari/604.1" Host: main.ktcg-insden.vercel.app
+192.168.99.12 - - [12/Feb/2026:23:49:24] "GET /api/discounts?code=SPRING2026&verify=true HTTP/1.1" 500 1024 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" Host: api.ktcg-insden.vercel.app
+10.145.78.234 - - [13/Feb/2026:00:01:02] "GET /images/sale-banner.jpg?campaign=spring&placement=homepage HTTP/1.1" 200 5120 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.6 Safari/605.1.15" Host: cdn.ktcg-insden.vercel.app
+172.28.45.167 - - [13/Feb/2026:00:13:40] "GET /js/countdown.js?end=2026-03-01&format=DHMS HTTP/1.1" 500 2048 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 15_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.0 Mobile/15E148 Safari/604.1" Host: assets.ktcg-insden.vercel.app
+10.234.67.89 - - [13/Feb/2026:00:25:18] "GET /black-friday?preview=true&year=2025 HTTP/1.1" 200 6144 "-" "Mozilla/5.0 (Linux; Android 13; SM-T870) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.6099.210 Safari/537.36" Host: main.ktcg-insden.vercel.app
+192.168.67.234 - - [13/Feb/2026:00:37:56] "GET /cyber-monday?deals=tech&flash_sale=true HTTP/1.1" 500 5120 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/119.0" Host: main.ktcg-insden.vercel.app
+10.56.123.78 - - [13/Feb/2026:00:49:34] "GET /api/holiday?type=public&country=ID&year=2026 HTTP/1.1" 200 1024 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" Host: api.ktcg-insden.vercel.app
+172.31.89.45 - - [13/Feb/2026:01:01:12] "GET /images/holiday.jpg?theme=christmas&width=1200 HTTP/1.1" 500 5120 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" Host: cdn.ktcg-insden.vercel.app
+10.189.34.67 - - [13/Feb/2026:01:13:50] "GET /js/snowfall.js?intensity=medium&color=white HTTP/1.1" 200 3072 "-" "Mozilla/5.0 (Android 12; SM-G998B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.6045.163 Mobile Safari/537.36" Host: assets.ktcg-insden.vercel.app
+192.168.45.189 - - [13/Feb/2026:01:26:28] "GET /api/verification?code=123456&email=test@ktcg.com HTTP/1.1" 500 1024 "-" "Mozilla/5.0 (iPad; CPU OS 17_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1" Host: api.ktcg-insden.vercel.app
+10.67.189.234 - - [13/Feb/2026:01:38:56] "GET /css/typography.css?font=inter&size=16px HTTP/1.1" 200 2048 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" Host: assets.ktcg-insden.vercel.app
+172.19.78.123 - - [13/Feb/2026:01:51:24] "GET /api/notifications?user=54321&unread=true HTTP/1.1" 500 1024 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" Host: api.ktcg-insden.vercel.app
+10.234.167.45 - - [13/Feb/2026:02:03:52] "GET /images/avatar-default.png?size=64&d=identicon HTTP/1.1" 200 2048 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" Host: cdn.ktcg-insden.vercel.app
+192.168.89.177 - - [13/Feb/2026:02:16:20] "GET /js/main.bundle.js?v=4.5.6&compress=true HTTP/1.1" 500 8192 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 16_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.5 Mobile/15E148 Safari/604.1" Host: assets.ktcg-insden.vercel.app
+10.45.178.99 - - [13/Feb/2026:02:28:48] "GET /metrics/network?interface=wlan0&proto=tcp HTTP/1.1" 200 1024 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:118.0) Gecko/20100101 Firefox/118.0" Host: monitor.ktcg-insden.vercel.app
+172.27.56.134 - - [13/Feb/2026:02:41:16] "GET /admin/permissions?role=editor&resource=posts HTTP/1.1" 403 512 "-" "Mozilla/5.0 (Android 13; SM-S901B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.6099.210 Mobile Safari/537.36" Host: admin-panel.ktcg-insden.vercel.app
+10.189.67.88 - - [13/Feb/2026:02:53:44] "GET /invoices?year=2026&month=02&format=pdf HTTP/1.1" 500 2048 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.1 Safari/605.1.15" Host: user.ktcg-insden.vercel.app
+192.168.123.56 - - [13/Feb/2026:03:06:12] "GET /api/locations?lat=-6.2088&lon=106.8456&radius=10 HTTP/1.1" 200 2048 "-" "Mozilla/5.0 (Linux; Android 14; Pixel 7 Pro) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.6167.164 Mobile Safari/537.36" Host: api.ktcg-insden.vercel.app
+10.34.89.167 - - [13/Feb/2026:03:18:40] "GET /images/error-404.png?text=Not+Found&color=red HTTP/1.1" 500 3072 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.0.0" Host: cdn.ktcg-insden.vercel.app
+172.23.189.45 - - [13/Feb/2026:03:31:08] "GET /js/form-validator.js?rules=strict&messages=id HTTP/1.1" 200 4096 "-" "Mozilla/5.0 (iPad; CPU OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1" Host: assets.ktcg-insden.vercel.app
+10.145.34.77 - - [13/Feb/2026:03:43:36] "GET /blog/popular?category=tech&limit=5 HTTP/1.1" 500 4096 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/120.0" Host: main.ktcg-insden.vercel.app
+192.168.67.234 - - [13/Feb/2026:03:56:04] "GET /api/search?q=laptop+gaming&sort=price_asc&filter=in_stock HTTP/1.1" 200 4096 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" Host: api.ktcg-insden.vercel.app
+10.78.145.66 - - [13/Feb/2026:04:08:32] "GET /images/icons/facebook.svg?color=%234267B2&size=24 HTTP/1.1" 500 512 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 15_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.0 Mobile/15E148 Safari/604.1" Host: cdn.ktcg-insden.vercel.app
+172.20.67.189 - - [13/Feb/2026:04:21:00] "GET /js/payment-validator.js?cc=true&cvv=true HTTP/1.1" 200 3072 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" Host: assets.ktcg-insden.vercel.app
+10.201.56.123 - - [13/Feb/2026:04:33:28] "GET /metrics/uptime?since=2026-01-01&format=json HTTP/1.1" 500 512 "-" "Mozilla/5.0 (Android 12; SM-A325F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.6099.210 Mobile Safari/537.36" Host: monitor.ktcg-insden.vercel.app
+192.168.34.201 - - [13/Feb/2026:04:45:56] "GET /admin/maintenance?mode=readonly&reason=update HTTP/1.1" 403 512 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:121.0) Gecko/20100101 Firefox/121.0" Host: admin-panel.ktcg-insden.vercel.app
+10.112.89.44 - - [13/Feb/2026:04:58:24] "GET /addresses?default=true&country=ID HTTP/1.1" 500 1024 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" Host: user.ktcg-insden.vercel.app
+172.29.134.78 - - [13/Feb/2026:05:10:52] "GET /api/metrics?type=counter&name=page_views HTTP/1.1" 200 512 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/119.0" Host: api.ktcg-insden.vercel.app
+10.56.189.234 - - [13/Feb/2026:05:23:20] "GET /images/logo-white.png?bg=dark&format=svg HTTP/1.1" 500 4096 "-" "Mozilla/5.0 (iPad; CPU OS 16_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.6 Mobile/15E148 Safari/604.1" Host: cdn.ktcg-insden.vercel.app
+192.168.89.45 - - [13/Feb/2026:05:35:48] "GET /js/vue.js?runtime=compiler&prod=false HTTP/1.1" 200 10240 "-" "Mozilla/5.0 (Linux; Android 13; SM-T500) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.6045.163 Safari/537.36" Host: assets.ktcg-insden.vercel.app
+10.234.67.123 - - [13/Feb/2026:05:48:16] "GET /faq?category=payment&lang=id HTTP/1.1" 500 3072 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 17_0_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1" Host: main.ktcg-insden.vercel.app
+172.18.145.99 - - [13/Feb/2026:06:00:44] "GET /api/recommend?user=12345&limit=6 HTTP/1.1" 200 3072 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" Host: api.ktcg-insden.vercel.app
+10.89.34.77 - - [13/Feb/2026:06:13:12] "GET /images/bg-pattern.svg?color=blue&opacity=0.1 HTTP/1.1" 500 2048 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" Host: cdn.ktcg-insden.vercel.app
+192.168.45.234 - - [13/Feb/2026:06:25:40] "GET /js/react.js?version=18.2.0&suspense=true HTTP/1.1" 200 12288 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/118.0" Host: assets.ktcg-insden.vercel.app
+10.145.78.33 - - [13/Feb/2026:06:38:08] "GET /system/health?deep=true&services=all HTTP/1.1" 500 1024 "-" "Mozilla/5.0 (Android 11; SM-G988B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.6167.164 Mobile Safari/537.36" Host: monitor.ktcg-insden.vercel.app
+172.26.89.55 - - [13/Feb/2026:06:50:36] "GET /admin/templates?edit=footer&preview=true HTTP/1.1" 403 512 "-" "Mozilla/5.0 (iPad; CPU OS 15_8 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.0 Mobile/15E148 Safari/604.1" Host: admin-panel.ktcg-insden.vercel.app
+10.201.78.166 - - [13/Feb/2026:07:03:04] "GET /subscriptions?status=active&renew=true HTTP/1.1" 500 1024 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" Host: user.ktcg-insden.vercel.app
+192.168.156.77 - - [13/Feb/2026:07:15:32] "GET /api/feedback?type=suggestion&category=ux HTTP/1.1" 200 512 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/120.0" Host: api.ktcg-insden.vercel.app
+10.67.189.44 - - [13/Feb/2026:07:28:00] "GET /images/social-card.jpg?title=KTCG&description=Welcome HTTP/1.1" 500 6144 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 16_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.3 Mobile/15E148 Safari/604.1" Host: cdn.ktcg-insden.vercel.app
+172.21.167.88 - - [13/Feb/2026:07:40:28] "GET /js/lazyload.min.js?threshold=500&effect=fadein HTTP/1.1" 200 4096 "-" "Mozilla/5.0 (Linux; Android 14; SM-S918U) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.6099.210 Mobile Safari/537.36" Host: assets.ktcg-insden.vercel.app
+10.34.189.123 - - [13/Feb/2026:07:52:56] "GET /careers/design?role=ui&level=mid HTTP/1.1" 500 4096 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" Host: main.ktcg-insden.vercel.app
+192.168.78.99 - - [13/Feb/2026:08:05:24] "GET /api/shipping?zip=12345&weight=2.5&carrier=jne HTTP/1.1" 200 2048 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2 Safari/605.1.15" Host: api.ktcg-insden.vercel.app
+10.78.145.222 - - [13/Feb/2026:08:17:52] "GET /fonts/roboto-bold.woff2?weight=700&display=swap HTTP/1.1" 500 8192 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" Host: assets.ktcg-insden.vercel.app
+172.28.34.67 - - [13/Feb/2026:08:30:20] "GET /metrics/requests?status=5xx&aggregate=hour HTTP/1.1" 200 1024 "-" "Mozilla/5.0 (Android 13; SM-T970) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.6167.164 Safari/537.36" Host: monitor.ktcg-insden.vercel.app
+10.112.67.89 - - [13/Feb/2026:08:42:48] "GET /admin/plugins?list=installed&updates=true HTTP/1.1" 403 512 "-" "Mozilla/5.0 (iPad; CPU OS 17_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1" Host: admin-panel.ktcg-insden.vercel.app
+192.168.201.56 - - [13/Feb/2026:08:55:16] "GET /payments/methods?default=true&verify=3ds HTTP/1.1" 500 1024 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 15_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.0 Mobile/15E148 Safari/604.1" Host: user.ktcg-insden.vercel.app
+10.189.45.234 - - [13/Feb/2026:09:07:44] "GET /api/tracking?order_id=KT-12345-67890&carrier=jnt HTTP/1.1" 200 1024 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" Host: api.ktcg-insden.vercel.app
+172.23.89.167 - - [13/Feb/2026:09:20:12] "GET /images/hero-mobile.jpg?orientation=portrait&dpr=2 HTTP/1.1" 500 7168 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/119.0" Host: cdn.ktcg-insden.vercel.app
+10.56.234.78 - - [13/Feb/2026:09:32:40] "GET /js/facebook-pixel.js?id=1234567890&auto_config=true HTTP/1.1" 200 3072 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" Host: assets.ktcg-insden.vercel.app
+192.168.45.123 - - [13/Feb/2026:09:45:08] "GET /press?year=2026&featured=true HTTP/1.1" 500 4096 "-" "Mozilla/5.0 (Android 12; SM-G996B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.6045.163 Mobile Safari/537.36" Host: main.ktcg-insden.vercel.app
+10.145.89.67 - - [13/Feb/2026:09:57:36] "GET /api/currency?base=USD&convert=IDR,EUR,GBP HTTP/1.1" 200 512 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:120.0) Gecko/20100101 Firefox/120.0" Host: api.ktcg-insden.vercel.app
+172.19.67.188 - - [13/Feb/2026:10:10:04] "GET /fonts/poppins-bold.woff2?weight=700&style=normal HTTP/1.1" 500 8192 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 17_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1" Host: assets.ktcg-insden.vercel.app
+10.201.34.99 - - [13/Feb/2026:10:22:32] "GET /metrics/database?query=slow&threshold=100ms HTTP/1.1" 200 1024 "-" "Mozilla/5.0 (Linux; Android 14; Pixel 8 Pro) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.6167.164 Mobile Safari/537.36" Host: monitor.ktcg-insden.vercel.app
+192.168.89.44 - - [13/Feb/2026:10:35:00] "GET /admin/queues?type=job&status=pending HTTP/1.1" 403 512 "-" "Mozilla/5.0 (iPad; CPU OS 16_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.2 Mobile/15E148 Safari/604.1" Host: admin-panel.ktcg-insden.vercel.app
+10.67.123.88 - - [13/Feb/2026:10:47:28] "GET /notifications/settings?channels=email,sms,push&quiet=false HTTP/1.1" 500 1024 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/118.0" Host: user.ktcg-insden.vercel.app
+172.26.78.45 - - [13/Feb/2026:10:59:56] "GET /api/inventory?sku=KT-98765-4321&location=warehouse-a HTTP/1.1" 200 1024 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" Host: api.ktcg-insden.vercel.app
+10.34.189.77 - - [13/Feb/2026:11:12:24] "GET /images/badge-new.png?size=48&glow=true HTTP/1.1" 500 1024 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.6 Safari/605.1.15" Host: cdn.ktcg-insden.vercel.app
+192.168.56.188 - - [13/Feb/2026:11:24:52] "GET /js/tracking.js?analytics=ga4&consent=GDPR HTTP/1.1" 200 4096 "-" "Mozilla/5.0 (Android 13; SM-S908B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.6099.210 Mobile Safari/537.36" Host: assets.ktcg-insden.vercel.app
+10.112.78.33 - - [13/Feb/2026:11:37:20] "GET /sustainability?report=2025&pdf=true HTTP/1.1" 500 3072 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 16_1_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.1 Mobile/15E148 Safari/604.1" Host: main.ktcg-insden.vercel.app
+172.31.45.166 - - [13/Feb/2026:11:49:48] "GET /api/rewards?user=54321&point_balance=true HTTP/1.1" 200 1024 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" Host: api.ktcg-insden.vercel.app
+10.189.67.234 - - [13/Feb/2026:12:02:16] "GET /fonts/opensans-regular.woff2?weight=400&subset=latin HTTP/1.1" 500 8192 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/121.0" Host: assets.ktcg-insden.vercel.app
+192.168.77.89 - - [13/Feb/2026:12:14:44] "GET /metrics/errors?code=5xx&since=1h HTTP/1.1" 200 1024 "-" "Mozilla/5.0 (iPad; CPU OS 17_1_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.1 Mobile/15E148 Safari/604.1" Host: monitor.ktcg-insden.vercel.app
+10.145.56.77 - - [13/Feb/2026:12:27:12] "GET /admin/cache?action=flush&type=redis HTTP/1.1" 403 512 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" Host: admin-panel.ktcg-insden.vercel.app
+172.20.89.234 - - [13/Feb/2026:12:39:40] "GET /returns/request?order=KT-99999-8888&reason=damaged HTTP/1.1" 500 1024 "-" "Mozilla/5.0 (Android 12; SM-A525F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.6167.164 Mobile Safari/537.36" Host: user.ktcg-insden.vercel.app
+10.234.45.99 - - [13/Feb/2026:12:52:08] "GET /api/promotions?active=true&category=electronics HTTP/1.1" 200 2048 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/119.0" Host: api.ktcg-insden.vercel.app
+172.28.167.44 - - [13/Feb/2026:13:04:36] "GET /images/thumbnail-default.jpg?w=150&h=150&fit=cover HTTP/1.1" 500 2048 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 15_7_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.0 Mobile/15E148 Safari/604.1" Host: cdn.ktcg-insden.vercel.app
+10.56.189.33 - - [13/Feb/2026:13:17:04] "GET /js/gtag.js?id=G-XXXXXXXXXX&anonymize_ip=true HTTP/1.1" 200 3072 "-" "Mozilla/5.0 (Linux; Android 14; SM-S918B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.6099.210 Mobile Safari/537.36" Host: assets.ktcg-insden.vercel.app
+192.168.123.78 - - [13/Feb/2026:13:29:32] "GET /investors?quarter=Q1&year=2026&report=earnings HTTP/1.1" 500 5120 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" Host: main.ktcg-insden.vercel.app
+10.78.234.56 - - [13/Feb/2026:13:42:00] "GET /api/stockalert?sku=KT-54321-6789&threshold=10 HTTP/1.1" 200 512 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Safari/605.1.15" Host: api.ktcg-insden.vercel.app
+172.23.89.123 - - [13/Feb/2026:13:54:28] "GET /css/utilities.min.css?grid=true&flex=true HTTP/1.1" 500 2048 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.0.0" Host: assets.ktcg-insden.vercel.app
+10.201.67.44 - - [13/Feb/2026:14:06:56] "GET /metrics/sessions?active=true&device=all HTTP/1.1" 200 1024 "-" "Mozilla/5.0 (iPad; CPU OS 16_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.7 Mobile/15E148 Safari/604.1" Host: monitor.ktcg-insden.vercel.app
+192.168.34.177 - - [13/Feb/2026:14:19:24] "GET /admin/logs?level=error&from=2026-02-13 HTTP/1.1" 403 512 "-" "Mozilla/5.0 (Android 13; SM-T860) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.6045.163 Safari/537.36" Host: admin-panel.ktcg-insden.vercel.app
+10.145.78.99 - - [13/Feb/2026:14:31:52] "GET /giftcards?balance=true&redeem=GIFT-2026-ABC HTTP/1.1" 500 512 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 17_0_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1" Host: user.ktcg-insden.vercel.app
+172.19.56.188 - - [13/Feb/2026:14:44:20] "GET /api/campaign?name=spring2026&stats=true HTTP/1.1" 200 2048 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" Host: api.ktcg-insden.vercel.app
+10.89.123.77 - - [13/Feb/2026:14:56:48] "GET /images/icon-512.png?platform=android&maskable=true HTTP/1.1" 500 5120 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/118.0" Host: cdn.ktcg-insden.vercel.app
+192.168.67.234 - - [13/Feb/2026:15:09:16] "GET /js/hotjar.js?site_id=123456&version=6 HTTP/1.1" 200 4096 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" Host: assets.ktcg-insden.vercel.app
+10.34.178.55 - - [13/Feb/2026:15:21:44] "GET /partners?status=active&type=affiliate HTTP/1.1" 500 2048 "-" "Mozilla/5.0 (Android 11; SM-G998B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.6099.210 Mobile Safari/537.36" Host: main.ktcg-insden.vercel.app
+172.26.45.67 - - [13/Feb/2026:15:34:12] "GET /api/loyalty?member_id=987654&points=earn HTTP/1.1" 200 1024 "-" "Mozilla/5.0 (iPad; CPU OS 15_6_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6 Mobile/15E148 Safari/604.1" Host: api.ktcg-insden.vercel.app
+10.201.89.44 - - [13/Feb/2026:15:46:40] "GET /fonts/lato-regular.woff2?weight=400&style=normal HTTP/1.1" 500 8192 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:121.0) Gecko/20100101 Firefox/121.0" Host: assets.ktcg-insden.vercel.app
+192.168.89.123 - - [13/Feb/2026:15:59:08] "GET /metrics/apdex?t=2&window=24h HTTP/1.1" 200 512 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 16_6_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.6 Mobile/15E148 Safari/604.1" Host: monitor.ktcg-insden.vercel.app
+10.112.67.188 - - [13/Feb/2026:16:11:36] "GET /admin/scheduled-tasks?status=failed&since=1d HTTP/1.1" 403 512 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" Host: admin-panel.ktcg-insden.vercel.app
+172.29.34.99 - - [13/Feb/2026:16:24:04] "GET /saved-items?collection=wishlist&share=true HTTP/1.1" 500 2048 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/120.0" Host: user.ktcg-insden.vercel.app
+10.56.145.77 - - [13/Feb/2026:16:36:32] "GET /api/geoip?ip=192.168.1.1&fields=country,city HTTP/1.1" 200 512 "-" "Mozilla/5.0 (Android 14; Pixel 7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.6167.164 Mobile Safari/537.36" Host: api.ktcg-insden.vercel.app
+192.168.45.222 - - [13/Feb/2026:16:49:00] "GET /images/og-image.jpg?title=KTCG+Report&type=summary HTTP/1.1" 500 5120 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.5 Safari/605.1.15" Host: cdn.ktcg-insden.vercel.app
+10.78.189.66 - - [13/Feb/2026:17:01:28] "GET /js/optimizely.js?project_id=1234567890&env=production HTTP/1.1" 200 5120 "-" "Mozilla/5.0 (iPad; CPU OS 17_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1" Host: assets.ktcg-insden.vercel.app
+172.20.167.33 - - [13/Feb/2026:17:13:56] "GET /code-of-conduct?version=2026&lang=id HTTP/1.1" 500 3072 "-" "Mozilla/5.0 (Linux; Android 13; SM-S908U) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.6099.210 Mobile Safari/537.36" Host: main.ktcg-insden.vercel.app
+10.234.89.45 - - [13/Feb/2026:17:26:24] "GET /api/warranty?serial=KT-55555-1234&check=valid HTTP/1.1" 200 512 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.0.0" Host: api.ktcg-insden.vercel.app
+172.31.78.123 - - [13/Feb/2026:17:38:52] "GET /css/dark-mode.css?forced=true&contrast=high HTTP/1.1" 500 2048 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 14_8 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Mobile/15E148 Safari/604.1" Host: assets.ktcg-insden.vercel.app
+10.189.34.77 - - [13/Feb/2026:17:51:20] "GET /metrics/throughput?unit=rps&interval=5m HTTP/1.1" 200 512 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/119.0" Host: monitor.ktcg-insden.vercel.app
+192.168.56.189 - - [13/Feb/2026:18:03:48] "GET /admin/api-keys?user=admin&scope=read,write HTTP/1.1" 403 512 "-" "Mozilla/5.0 (Android 12; SM-T500) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.6167.164 Safari/537.36" Host: admin-panel.ktcg-insden.vercel.app
+10.145.67.33 - - [13/Feb/2026:18:16:16] "GET /preferences/notifications?digest=daily&time=08:00 HTTP/1.1" 500 1024 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" Host: user.ktcg-insden.vercel.app
+172.23.45.188 - - [13/Feb/2026:18:28:44] "GET /api/abtest?experiment=homepage_v3&bucket=control HTTP/1.1" 200 512 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/118.0" Host: api.ktcg-insden.vercel.app
+10.201.78.55 - - [13/Feb/2026:18:41:12] "GET /images/bg-hero.svg?color=%230f172a&width=1440 HTTP/1.1" 500 4096 "-" "Mozilla/5.0 (iPad; CPU OS 16_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.1 Mobile/15E148 Safari/604.1" Host: cdn.ktcg-insden.vercel.app
+192.168.34.66 - - [13/Feb/2026:18:53:40] "GET /js/moment.js?locale=id&format=iso HTTP/1.1" 200 6144 "-" "Mozilla/5.0 (Android 14; SM-S918B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.6045.163 Mobile Safari/537.36" Host: assets.ktcg-insden.vercel.app
+10.67.189.123 - - [13/Feb/2026:19:06:08] "GET /suppliers?status=approved&category=electronics HTTP/1.1" 500 3072 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 17_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1" Host: main.ktcg-insden.vercel.app
+172.26.89.44 - - [13/Feb/2026:19:18:36] "GET /api/return-labels?order=KT-77777-9999&carrier=sicepat HTTP/1.1" 200 1024 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" Host: api.ktcg-insden.vercel.app
+10.112.45.77 - - [13/Feb/2026:19:31:04] "GET /fonts/montserrat-semibold.woff2?weight=600&display=swap HTTP/1.1" 500 8192 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2 Safari/605.1.15" Host: assets.ktcg-insden.vercel.app
+192.168.77.234 - - [13/Feb/2026:19:43:32] "GET /metrics/latency?percentile=95&service=api HTTP/1.1" 200 1024 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" Host: monitor.ktcg-insden.vercel.app
+10.34.189.88 - - [13/Feb/2026:19:56:00] "GET /admin/webhooks?endpoint=stripe&events=all HTTP/1.1" 403 512 "-" "Mozilla/5.0 (Android 13; SM-T970) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.6167.164 Safari/537.36" Host: admin-panel.ktcg-insden.vercel.app
+172.28.56.99 - - [13/Feb/2026:20:08:28] "GET /credit-cards?default=true&verify_cvv=false HTTP/1.1" 500 1024 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 15_8 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.0 Mobile/15E148 Safari/604.1" Host: user.ktcg-insden.vercel.app
+10.145.89.234 - - [13/Feb/2026:20:20:56] "GET /api/sms?provider=twilio&status=sent HTTP/1.1" 200 512 "-" "Mozilla/5.0 (Linux; Android 12; SM-A525F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.6099.210 Mobile Safari/537.36" Host: api.ktcg-insden.vercel.app
+192.168.45.111 - - [13/Feb/2026:20:33:24] "GET /images/payment-methods.svg?include=visa,mastercard,paypal HTTP/1.1" 500 3072 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/120.0" Host: cdn.ktcg-insden.vercel.app
+10.78.167.44 - - [13/Feb/2026:20:45:52] "GET /js/clarity.js?project_id=abcdefgh&trusted=true HTTP/1.1" 200 4096 "-" "Mozilla/5.0 (iPad; CPU OS 17_0_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1" Host: assets.ktcg-insden.vercel.app
+172.20.89.33 - - [13/Feb/2026:20:58:20] "GET /procurement?rfp=2026-001&status=open HTTP/1.1" 500 3072 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" Host: main.ktcg-insden.vercel.app
+10.56.234.188 - - [13/Feb/2026:21:10:48] "GET /api/pulse?metric=cpu,memory&host=all HTTP/1.1" 200 1024 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/121.0" Host: api.ktcg-insden.vercel.app
+172.31.67.55 - - [13/Feb/2026:21:23:16] "GET /fonts/roboto-italic.woff2?weight=400&style=italic HTTP/1.1" 500 8192 "-" "Mozilla/5.0 (Android 14; Pixel 6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.6167.164 Mobile Safari/537.36" Host: assets.ktcg-insden.vercel.app
+10.189.45.123 - - [13/Feb/2026:21:35:44] "GET /metrics/connections?state=established&port=443 HTTP/1.1" 200 512 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 16_3_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.3 Mobile/15E148 Safari/604.1" Host: monitor.ktcg-insden.vercel.app
+192.168.89.67 - - [13/Feb/2026:21:48:12] "GET /admin/feature-toggle?name=new_checkout&enable=true HTTP/1.1" 403 512 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" Host: admin-panel.ktcg-insden.vercel.app
+10.201.34.77 - - [13/Feb/2026:22:00:40] "GET /wishlist/export?format=csv&share_token=abc123def HTTP/1.1" 500 1024 "-" "Mozilla/5.0 (iPad; CPU OS 15_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.5 Mobile/15E148 Safari/604.1" Host: user.ktcg-insden.vercel.app
+172.19.78.166 - - [13/Feb/2026:22:13:08] "GET /api/shipping-rates?weight=5&destination=jakarta HTTP/1.1" 200 2048 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" Host: api.ktcg-insden.vercel.app
+10.112.89.44 - - [13/Feb/2026:22:25:36] "GET /images/banner-spring.jpg?campaign=2026&locale=id HTTP/1.1" 500 6144 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0" Host: cdn.ktcg-insden.vercel.app
+192.168.34.55 - - [13/Feb/2026:22:38:04] "GET /js/intercom.js?app_id=abc12345&install=true HTTP/1.1" 200 5120 "-" "Mozilla/5.0 (Android 13; SM-S908E) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.6099.210 Mobile Safari/537.36" Host: assets.ktcg-insden.vercel.app
+10.67.123.99 - - [13/Feb/2026:22:50:32] "GET /human-rights?report=2025&policy=updated HTTP/1.1" 500 3072 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 17_1_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.1 Mobile/15E148 Safari/604.1" Host: main.ktcg-insden.vercel.app
+172.23.189.44 - - [13/Feb/2026:23:03:00] "GET /api/customer-support?ticket=HELP-54321&priority=urgent HTTP/1.1" 200 1024 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/118.0" Host: api.ktcg-insden.vercel.app
+10.145.56.188 - - [13/Feb/2026:23:15:28] "GET /css/animations.min.css?delay=0.3s&duration=1s HTTP/1.1" 500 2048 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.4 Safari/605.1.15" Host: assets.ktcg-insden.vercel.app
+172.26.78.33 - - [13/Feb/2026:23:27:56] "GET /metrics/eventloop?lag=true&interval=1m HTTP/1.1" 200 512 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/119.0" Host: monitor.ktcg-insden.vercel.app
+10.201.89.77 - - [13/Feb/2026:23:40:24] "GET /admin/ssl-cert?domain=*.ktcg-insden.vercel.app&renew=true HTTP/1.1" 403 512 "-" "Mozilla/5.0 (iPad; CPU OS 17_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1" Host: admin-panel.ktcg-insden.vercel.app
+192.168.56.123 - - [13/Feb/2026:23:52:52] "GET /address-book?export=vcard&format=3.0 HTTP/1.1" 500 2048 "-" "Mozilla/5.0 (Android 11; SM-G991B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.6167.164 Mobile Safari/537.36" Host: user.ktcg-insden.vercel.app
+10.34.67.234 - - [14/Feb/2026:00:05:20] "GET /api/translate?text=Hello%20world&target=id&source=en HTTP/1.1" 200 512 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" Host: api.ktcg-insden.vercel.app
+172.28.89.45 - - [14/Feb/2026:00:17:48] "GET /fonts/roboto-light.woff2?weight=300&display=fallback HTTP/1.1" 500 8192 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 16_5_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.5 Mobile/15E148 Safari/604.1" Host: assets.ktcg-insden.vercel.app
+10.78.145.66 - - [14/Feb/2026:00:30:16] "GET /images/category-icons.svg?set=ecommerce&color=blue HTTP/1.1" 200 10240 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" Host: cdn.ktcg-insden.vercel.app
+192.168.45.189 - - [14/Feb/2026:00:42:44] "GET /js/sentry.min.js?dsn=https://12345@sentry.io/67890&replays=true HTTP/1.1" 500 5120 "-" "Mozilla/5.0 (Android 14; SM-S918B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.6099.210 Mobile Safari/537.36" Host: assets.ktcg-insden.vercel.app
+10.189.67.33 - - [14/Feb/2026:00:55:12] "GET /diversity?report=2025&initiative=tech HTTP/1.1" 200 3072 "-" "Mozilla/5.0 (iPad; CPU OS 16_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.2 Mobile/15E148 Safari/604.1" Host: main.ktcg-insden.vercel.app
+172.20.34.77 - - [14/Feb/2026:01:07:40] "GET /api/calendar?holiday=true&country=ID&year=2026 HTTP/1.1" 500 1024 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0" Host: api.ktcg-insden.vercel.app
+10.112.78.99 - - [14/Feb/2026:01:20:08] "GET /css/print.min.css?media=print&responsive=false HTTP/1.1" 200 1024 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:121.0) Gecko/20100101 Firefox/121.0" Host: assets.ktcg-insden.vercel.app
+172.31.45.66 - - [14/Feb/2026:01:32:36] "GET /metrics/gc?collector=g1gc&pause=true HTTP/1.1" 500 512 "-" "Mozilla/5.0 (Android 13; SM-T970) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.6167.164 Safari/537.36" Host: monitor.ktcg-insden.vercel.app
+10.201.56.44 - - [14/Feb/2026:01:45:04] "GET /admin/backup-schedule?frequency=daily&retention=30 HTTP/1.1" 403 512 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 15_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6 Mobile/15E148 Safari/604.1" Host: admin-panel.ktcg-insden.vercel.app
+192.168.67.188 - - [14/Feb/2026:01:57:32] "GET /payment-methods?add=paypal&set_default=true HTTP/1.1" 500 1024 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/120.0" Host: user.ktcg-insden.vercel.app
+10.145.89.55 - - [14/Feb/2026:02:10:00] "GET /api/weather?city=Jakarta&units=metric HTTP/1.1" 200 1024 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" Host: api.ktcg-insden.vercel.app
+172.23.67.123 - - [14/Feb/2026:02:22:28] "GET /images/logo-animated.svg?autoplay=false&loop=1 HTTP/1.1" 500 4096 "-" "Mozilla/5.0 (iPad; CPU OS 17_0_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1" Host: cdn.ktcg-insden.vercel.app
+10.56.189.77 - - [14/Feb/2026:02:34:56] "GET /js/d3.js?version=7.8.5&bundle=core HTTP/1.1" 200 10240 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" Host: assets.ktcg-insden.vercel.app
+192.168.89.234 - - [14/Feb/2026:02:47:24] "GET /cybersecurity?framework=nist&audit=2026 HTTP/1.1" 500 5120 "-" "Mozilla/5.0 (Android 12; SM-G998B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.6045.163 Mobile Safari/537.36" Host: main.ktcg-insden.vercel.app
+10.34.178.99 - - [14/Feb/2026:02:59:52] "GET /api/ratelimit?key=api_key_12345&usage=current HTTP/1.1" 200 512 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 17_2_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2 Mobile/15E148 Safari/604.1" Host: api.ktcg-insden.vercel.app
+172.26.89.66 - - [14/Feb/2026:03:12:20] "GET /fonts/roboto-medium.woff2?weight=500&subset=latin-ext HTTP/1.1" 500 8192 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" Host: assets.ktcg-insden.vercel.app
+10.201.67.88 - - [14/Feb/2026:03:24:48] "GET /metrics/traffic?source=cdn&bytes=true HTTP/1.1" 200 512 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/118.0" Host: monitor.ktcg-insden.vercel.app
+192.168.34.99 - - [14/Feb/2026:03:37:16] "GET /admin/email-templates?name=welcome&preview=true HTTP/1.1" 403 512 "-" "Mozilla/5.0 (Android 14; Pixel 7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.6167.164 Mobile Safari/537.36" Host: admin-panel.ktcg-insden.vercel.app
+10.78.234.77 - - [14/Feb/2026:03:49:44] "GET /subscription/plans?currency=IDR&billing=annual HTTP/1.1" 500 2048 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.3 Safari/605.1.15" Host: user.ktcg-insden.vercel.app
+172.28.45.123 - - [14/Feb/2026:04:02:12] "GET /api/oauth?provider=google&redirect_uri=https://main.ktcg-insden.vercel.app/callback HTTP/1.1" 200 512 "-" "Mozilla/5.0 (iPad; CPU OS 15_7_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.7 Mobile/15E148 Safari/604.1" Host: api.ktcg-insden.vercel.app
+10.112.67.55 - - [14/Feb/2026:04:14:40] "GET /images/social-icons.svg?platform=twitter,fb,ig&color=white HTTP/1.1" 500 6144 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 16_1_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.1 Mobile/15E148 Safari/604.1" Host: cdn.ktcg-insden.vercel.app
+192.168.45.222 - - [14/Feb/2026:04:27:08] "GET /js/axios.min.js?browser=true&withXSRF=true HTTP/1.1" 200 4096 "-" "Mozilla/5.0 (Linux; Android 13; SM-S908U) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.6099.210 Mobile Safari/537.36" Host: assets.ktcg-insden.vercel.app
+10.67.189.88 - - [14/Feb/2026:04:39:36] "GET /environmental?report=2025&carbon=neutral HTTP/1.1" 500 3072 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/121.0" Host: main.ktcg-insden.vercel.app
+172.20.56.77 - - [14/Feb/2026:04:52:04] "GET /api/redirect?url=https://docs.ktcg-insden.vercel.app&code=301 HTTP/1.1" 200 512 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" Host: api.ktcg-insden.vercel.app
+10.145.34.99 - - [14/Feb/2026:05:04:32] "GET /css/fonts.css?family=Inter&family=Roboto&display=swap HTTP/1.1" 500 2048 "-" "Mozilla/5.0 (Android 11; SM-G988B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.6167.164 Mobile Safari/537.36" Host: assets.ktcg-insden.vercel.app
+172.31.78.44 - - [14/Feb/2026:05:17:00] "GET /metrics/cache?hit_ratio=true&store=redis HTTP/1.1" 200 512 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" Host: monitor.ktcg-insden.vercel.app
+10.189.45.67 - - [14/Feb/2026:05:29:28] "GET /admin/integrations?service=slack&channel=alerts HTTP/1.1" 403 512 "-" "Mozilla/5.0 (iPad; CPU OS 17_1_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.1 Mobile/15E148 Safari/604.1" Host: admin-panel.ktcg-insden.vercel.app
+192.168.56.44 - - [14/Feb/2026:05:41:56] "GET /saved-searches?q=laptop&alert=true&frequency=daily HTTP/1.1" 500 1024 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 16_4_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.4 Mobile/15E148 Safari/604.1" Host: user.ktcg-insden.vercel.app
+10.34.89.123 - - [14/Feb/2026:05:54:24] "GET /api/geocode?address=Sudirman%20Jakarta&lang=id HTTP/1.1" 200 1024 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" Host: api.ktcg-insden.vercel.app
+172.23.145.66 - - [14/Feb/2026:06:06:52] "GET /fonts/opensans-bold.woff2?weight=700&display=swap HTTP/1.1" 500 8192 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/120.0" Host: assets.ktcg-insden.vercel.app
+10.56.78.99 - - [14/Feb/2026:06:19:20] "GET /images/trust-badge.svg?type=ssl&secure=true HTTP/1.1" 200 2048 "-" "Mozilla/5.0 (Android 14; SM-S918U) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.6045.163 Mobile Safari/537.36" Host: cdn.ktcg-insden.vercel.app
+192.168.77.188 - - [14/Feb/2026:06:31:48] "GET /js/lodash.min.js?version=4.17.21&core=true HTTP/1.1" 500 8192 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2 Safari/605.1.15" Host: assets.ktcg-insden.vercel.app
+10.201.78.33 - - [14/Feb/2026:06:44:16] "GET /tax-information?country=ID&tax_id=1234567890 HTTP/1.1" 200 3072 "-" "Mozilla/5.0 (iPad; CPU OS 16_0_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.0 Mobile/15E148 Safari/604.1" Host: main.ktcg-insden.vercel.app
+172.26.34.77 - - [14/Feb/2026:06:56:44] "GET /api/barcode?type=qr&data=KT-12345-67890&size=300x300 HTTP/1.1" 500 512 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 15_3_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.3 Mobile/15E148 Safari/604.1" Host: api.ktcg-insden.vercel.app
+10.112.89.55 - - [14/Feb/2026:07:09:12] "GET /css/reset.css?normalize=true&box-sizing=border HTTP/1.1" 200 1024 "-" "Mozilla/5.0 (Android 13; SM-T500) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.6167.164 Safari/537.36" Host: assets.ktcg-insden.vercel.app
+172.28.67.188 - - [14/Feb/2026:07:21:40] "GET /metrics/threads?daemon=true&state=runnable HTTP/1.1" 500 512 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/118.0" Host: monitor.ktcg-insden.vercel.app
+10.145.89.44 - - [14/Feb/2026:07:34:08] "GET /admin/seo?page=/products&sitemap=true HTTP/1.1" 403 512 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" Host: admin-panel.ktcg-insden.vercel.app
+192.168.34.77 - - [14/Feb/2026:07:46:36] "GET /recently-viewed?limit=12&unique=true HTTP/1.1" 500 2048 "-" "Mozilla/5.0 (Android 12; SM-G996B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.6099.210 Mobile Safari/537.36" Host: user.ktcg-insden.vercel.app
+10.67.123.66 - - [14/Feb/2026:07:59:04] "GET /api/delivery?estimate=true&postal=12345 HTTP/1.1" 200 1024 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" Host: api.ktcg-insden.vercel.app
+172.23.89.55 - - [14/Feb/2026:08:11:32] "GET /fonts/poppins-regular.woff2?weight=400&display=optional HTTP/1.1" 500 8192 "-" "Mozilla/5.0 (iPad; CPU OS 17_2_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2 Mobile/15E148 Safari/604.1" Host: assets.ktcg-insden.vercel.app
+10.189.34.88 - - [14/Feb/2026:08:24:00] "GET /images/product-placeholder.jpg?size=medium&type=general HTTP/1.1" 200 4096 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 16_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.6 Mobile/15E148 Safari/604.1" Host: cdn.ktcg-insden.vercel.app
+192.168.45.33 - - [14/Feb/2026:08:36:28] "GET /js/chart.min.js?version=3.9.1&responsive=true HTTP/1.1" 500 8192 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" Host: assets.ktcg-insden.vercel.app
+10.201.56.188 - - [14/Feb/2026:08:48:56] "GET /supply-chain?trace=KT-98765&origin=china HTTP/1.1" 200 3072 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/121.0" Host: main.ktcg-insden.vercel.app
+172.20.78.99 - - [14/Feb/2026:09:01:24] "GET /api/two-factor?method=sms&phone=+628123456789 HTTP/1.1" 500 512 "-" "Mozilla/5.0 (Android 14; Pixel 8 Pro) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.6167.164 Mobile Safari/537.36" Host: api.ktcg-insden.vercel.app
+10.112.45.66 - - [14/Feb/2026:09:13:52] "GET /css/variables.css?color-mode=dark&spacing=compact HTTP/1.1" 200 2048 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.1 Safari/605.1.15" Host: assets.ktcg-insden.vercel.app
+172.31.89.77 - - [14/Feb/2026:09:26:20] "GET /metrics/diskio?device=sda&metric=iops HTTP/1.1" 500 512 "-" "Mozilla/5.0 (iPad; CPU OS 15_4_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1" Host: monitor.ktcg-insden.vercel.app
+10.145.67.22 - - [14/Feb/2026:09:38:48] "GET /admin/content?type=blog&status=draft HTTP/1.1" 403 512 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 17_0_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1" Host: admin-panel.ktcg-insden.vercel.app
+192.168.56.99 - - [14/Feb/2026:09:51:16] "GET /giftcard/redeem?code=KTGC-ABCD-1234-EFGH HTTP/1.1" 500 512 "-" "Mozilla/5.0 (Android 13; SM-S908B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.6045.163 Mobile Safari/537.36" Host: user.ktcg-insden.vercel.app
+10.34.167.44 - - [14/Feb/2026:10:03:44] "GET /api/email?action=subscribe&list=newsletter HTTP/1.1" 200 512 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/119.0" Host: api.ktcg-insden.vercel.app
+172.26.45.88 - - [14/Feb/2026:10:16:12] "GET /fonts/opensans-italic.woff2?weight=400&style=italic HTTP/1.1" 500 8192 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" Host: assets.ktcg-insden.vercel.app
+10.189.78.33 - - [14/Feb/2026:10:28:40] "GET /images/flag-id.svg?size=32&circle=true HTTP/1.1" 200 2048 "-" "Mozilla/5.0 (Android 11; SM-G988B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.6167.164 Mobile Safari/537.36" Host: cdn.ktcg-insden.vercel.app
+192.168.77.44 - - [14/Feb/2026:10:41:08] "GET /js/helmet.js?csp=true&hsts=true HTTP/1.1" 500 4096 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" Host: assets.ktcg-insden.vercel.app
+10.201.34.55 - - [14/Feb/2026:10:53:36] "GET /privacy-policy?updated=2026-02-01&lang=id HTTP/1.1" 200 5120 "-" "Mozilla/5.0 (iPad; CPU OS 17_0_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1" Host: main.ktcg-insden.vercel.app
+172.23.67.99 - - [14/Feb/2026:11:06:04] "GET /api/password-reset?email=user@example.com&token=secure123 HTTP/1.1" 500 512 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 16_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.2 Mobile/15E148 Safari/604.1" Host: api.ktcg-insden.vercel.app
+10.56.89.123 - - [14/Feb/2026:11:18:32] "GET /css/grid.min.css?columns=12&gutter=16px HTTP/1.1" 200 2048 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" Host: assets.ktcg-insden.vercel.app
+172.28.34.66 - - [14/Feb/2026:11:31:00] "GET /metrics/jvm?heap=used&gc=count HTTP/1.1" 500 512 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/118.0" Host: monitor.ktcg-insden.vercel.app
+10.145.78.11 - - [14/Feb/2026:11:43:28] "GET /admin/users/import?format=csv&mapping=true HTTP/1.1" 403 512 "-" "Mozilla/5.0 (Android 14; SM-S918B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.6099.210 Mobile Safari/537.36" Host: admin-panel.ktcg-insden.vercel.app
+192.168.45.77 - - [14/Feb/2026:11:55:56] "GET /warranty/register?product=KT-54321&purchase_date=2026-02-01 HTTP/1.1" 500 512 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.1 Safari/605.1.15" Host: user.ktcg-insden.vercel.app
+10.67.189.44 - - [14/Feb/2026:12:08:24] "GET /api/partner?code=AFF12345&commission=10 HTTP/1.1" 200 512 "-" "Mozilla/5.0 (Android 13; SM-T970) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.6167.164 Safari/537.36" Host: api.ktcg-insden.vercel.app
+172.20.89.55 - - [14/Feb/2026:12:20:52] "GET /fonts/roboto-thin.woff2?weight=100&display=swap HTTP/1.1" 500 8192 "-" "Mozilla/5.0 (iPad; CPU OS 16_5_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.5 Mobile/15E148 Safari/604.1" Host: assets.ktcg-insden.vercel.app
+10.112.67.33 - - [14/Feb/2026:12:33:20] "GET /images/star-rating.svg?stars=4.5&size=24 HTTP/1.1" 200 1024 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 15_7_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.7 Mobile/15E148 Safari/604.1" Host: cdn.ktcg-insden.vercel.app
+192.168.34.188 - - [14/Feb/2026:12:45:48] "GET /js/masonry.js?layout=grid&columnWidth=300 HTTP/1.1" 500 5120 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/120.0" Host: assets.ktcg-insden.vercel.app
+10.201.78.99 - - [14/Feb/2026:12:58:16] "GET /security-bulletin?severity=high&year=2026 HTTP/1.1" 200 4096 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" Host: main.ktcg-insden.vercel.app
+172.26.56.44 - - [14/Feb/2026:13:10:44] "GET /api/notification?type=system&ack=false HTTP/1.1" 500 512 "-" "Mozilla/5.0 (Android 12; SM-G991B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.6167.164 Mobile Safari/537.36" Host: api.ktcg-insden.vercel.app
+10.189.34.77 - - [14/Feb/2026:13:23:12] "GET /css/theme.light.css?primary=%2322d3ee&secondary=%230f172a HTTP/1.1" 200 3072 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" Host: assets.ktcg-insden.vercel.app
+172.31.45.66 - - [14/Feb/2026:13:35:40] "GET /metrics/uptime?since=2026-02-01&format=json HTTP/1.1" 500 512 "-" "Mozilla/5.0 (iPad; CPU OS 17_1_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.1 Mobile/15E148 Safari/604.1" Host: monitor.ktcg-insden.vercel.app
+10.145.89.22 - - [14/Feb/2026:13:48:08] "GET /admin/roles?permission=manage_users&effective=true HTTP/1.1" 403 512 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 16_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.3 Mobile/15E148 Safari/604.1" Host: admin-panel.ktcg-insden.vercel.app
+192.168.56.77 - - [14/Feb/2026:14:00:36] "GET /product-reviews?product=KT-67890&sort=recent&filter=verified HTTP/1.1" 500 3072 "-" "Mozilla/5.0 (Android 14; Pixel 7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.6045.163 Mobile Safari/537.36" Host: user.ktcg-insden.vercel.app
+10.34.67.99 - - [14/Feb/2026:14:13:04] "GET /api/calendar?event=webinar&date=2026-02-20 HTTP/1.1" 200 512 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" Host: api.ktcg-insden.vercel.app
+172.23.78.33 - - [14/Feb/2026:14:25:32] "GET /fonts/roboto-black.woff2?weight=900&display=block HTTP/1.1" 500 8192 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/121.0" Host: assets.ktcg-insden.vercel.app
+10.56.189.66 - - [14/Feb/2026:14:38:00] "GET /images/logo-icon.svg?monochrome=true&stroke=1.5 HTTP/1.1" 200 2048 "-" "Mozilla/5.0 (Android 13; SM-S908E) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.6167.164 Mobile Safari/537.36" Host: cdn.ktcg-insden.vercel.app
+192.168.45.99 - - [14/Feb/2026:14:50:28] "GET /js/three.min.js?version=r128&antialias=true HTTP/1.1" 500 10240 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.2 Safari/605.1.15" Host: assets.ktcg-insden.vercel.app
+10.201.67.44 - - [14/Feb/2026:15:02:56] "GET /accessibility?statement=true&wcag=2.1 HTTP/1.1" 200 3072 "-" "Mozilla/5.0 (iPad; CPU OS 15_6_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6 Mobile/15E148 Safari/604.1" Host: main.ktcg-insden.vercel.app
+172.20.34.88 - - [14/Feb/2026:15:15:24] "GET /api/session?extend=true&token=eyJhbGciOiJIUzI1NiJ9 HTTP/1.1" 500 512 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 17_0_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1" Host: api.ktcg-insden.vercel.app
+10.112.89.77 - - [14/Feb/2026:15:27:52] "GET /css/forms.css?style=modern&focus=ring HTTP/1.1" 200 2048 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/118.0" Host: assets.ktcg-insden.vercel.app
+172.28.67.44 - - [14/Feb/2026:15:40:20] "GET /metrics/http?method=GET&status=2xx HTTP/1.1" 500 512 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" Host: monitor.ktcg-insden.vercel.app
+10.145.34.55 - - [14/Feb/2026:15:52:48] "GET /admin/analytics/realtime?metric=users&interval=1m HTTP/1.1" 403 512 "-" "Mozilla/5.0 (Android 12; SM-G998B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.6099.210 Mobile Safari/537.36" Host: admin-panel.ktcg-insden.vercel.app
+192.168.34.66 - - [14/Feb/2026:16:05:16] "GET /order/history?year=2026&month=02&export=pdf HTTP/1.1" 500 2048 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" Host: user.ktcg-insden.vercel.app
