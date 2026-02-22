@@ -5,6 +5,7 @@ https://raw.githubusercontent.com/Nothingness1312/ktcg/refs/heads/main/Forensics
 https://raw.githubusercontent.com/Nothingness1312/ktcg/refs/heads/main/Forensics/chall.zip
 https://raw.githubusercontent.com/Nothingness1312/ktcg/refs/heads/main/Forensics/ktcg-insden-prod-access.log
 https://raw.githubusercontent.com/Nothingness1312/ktcg/refs/heads/main/Forensics/ktcg-insden-prod-access/index.html
+https://raw.githubusercontent.com/Nothingness1312/ktcg/refs/heads/main/crypto/chall.txt
 https://raw.githubusercontent.com/Nothingness1312/ktcg/refs/heads/main/Reverse/mystery
 https://raw.githubusercontent.com/Nothingness1312/ktcg/refs/heads/main/Reverse/gatekeeper
 https://raw.githubusercontent.com/Nothingness1312/ktcg/refs/heads/main/Reverse/baby_rev.py
